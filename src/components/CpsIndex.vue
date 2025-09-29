@@ -16,7 +16,7 @@ function showCreditDetails(elementId: string) {
   }
 }
 
-const carousel = ref([
+const carousel = [
   {
     isActive: !1,
     rlink: !1,
@@ -102,7 +102,7 @@ const carousel = ref([
     btntext: 'VER',
     styleBtn: 'background-color: white; color: rgb(63, 126, 189); right: 31%; bottom: 5%',
   },
-])
+]
 </script>
 
 <template>
