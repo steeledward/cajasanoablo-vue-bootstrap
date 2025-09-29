@@ -1,5 +1,20 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import backgroundImageWeAre from '@/assets/historia.webp'
+
+const weAreStyle = {
+  backgroundImage: `url(${backgroundImageWeAre})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center'
+}
+
+function showCreditDetails(elementId: string) {
+  const element = document.getElementById(elementId);
+  if (element) { // Check if the element exists
+    element.style.display = element.style.display == "block" ? "none" : "block";
+    // buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
+  }
+}
 
 const carousel = ref([
   {
@@ -300,8 +315,7 @@ const carousel = ref([
     <section class="pb-5">
       <div class="container-fluid">
         <div class="row">
-          <div class="bg-matriz col-12 col-md-7"
-            style="background-image: url(/src/assets/historia.webp); background-position: center; background-size: cover;">
+          <div class="bg-matriz col-12 col-md-7" :style="weAreStyle">
           </div>
           <div class="col-12 col-md-5 who-are">
             <div class="container py-5" style="height: 100%;">
@@ -389,7 +403,8 @@ const carousel = ref([
                   alt="icono signo de interrogación" class="imgfb">
                 <div _ngcontent-ng-c3795751133="" class="titulofb text-center fs-1 my-4 text-center">Preguntas
                   Frecuentes</div>
-                <div _ngcontent-ng-c3795751133="" id="pregfrecbtn" class="nov-event-boton">Ver más</div>
+                <div _ngcontent-ng-c3795751133="" id="pregfrecbtn" class="nov-event-boton"
+                  @click="showCreditDetails('pregfrec')">Ver más</div>
                 <div _ngcontent-ng-c3795751133="" id="pregfrec" class="container" style="display: none;">
                   <div _ngcontent-ng-c3795751133="" id="accordionFlushExample" class="accordion accordion-flush">
                     <div _ngcontent-ng-c3795751133="" class="accordion-item">
@@ -734,6 +749,21 @@ const carousel = ref([
   </main>
 </template>
 <style scoped>
+.preg-frec[_ngcontent-ng-c3795751133] .accordion-button[_ngcontent-ng-c3795751133] {
+  margin: 5px 0;
+  font-size: 1.3rem;
+  color: var(--bs-gray);
+}
+
+.accordion-body[_ngcontent-ng-c3795751133] .resp[_ngcontent-ng-c3795751133] {
+  font-size: 1.1rem;
+  text-align: justify;
+  padding: 25px 20px;
+  box-shadow: 0 10px 20px #00000042;
+  border-radius: 0 0 10px 10px;
+  font-family: inherit;
+}
+
 .rounded-btn {
   display: inline-block;
   padding: 12px 24px;
