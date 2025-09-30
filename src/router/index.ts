@@ -16,6 +16,7 @@ import Aviso from '@/components/info/CpsAviso.vue'
 import DespachosCobranza from '@/components/info/CpsDespachosCobranza.vue'
 import Historia from '@/components/info/CpsHistoria.vue'
 import Trabajo from '@/components/info/CpsTrabajo.vue'
+import NovEventos from '@/components/servicio/CpsNovEventos.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -104,6 +105,11 @@ const router = createRouter({
       path: '/info/trabajo',
       name: 'trabajo',
       component: Trabajo,
+    },
+    {
+      path: '/servicio/nov-event',
+      name: 'nove-event',
+      component: NovEventos,
     },
   ],
 })
