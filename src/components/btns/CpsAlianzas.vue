@@ -135,13 +135,13 @@
                 href="https://www.instagram.com/reyquintil/?hl=es"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/instagram.png" /></a><a _ngcontent-ng-c2365270893
                 href="consultorio_quintil@hotmail.com"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="31 5355 4487"><img
+                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 4052 3305"><img
                   _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
                 href="https://consultorio-dental-rey-quintil.my.canva.site/" target="_blank"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png" /></a>
             </div>
             <a _ngcontent-ng-c2365270893 target="_blank"
-              href="/assets/pdf/Consultorio Dental Rey Quintil Guadalajara.pdf"><button _ngcontent-ng-c2365270893>Leer
+              href="/assets/pdf/CONSULTORIO_REY_QUINTILL_PGINA_WEB.pdf"><button _ngcontent-ng-c2365270893>Leer
                 más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
