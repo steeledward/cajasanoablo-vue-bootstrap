@@ -1263,3 +1263,28 @@
     </app-nov-event>
   </main>
 </template>
+<style lang="css" scoped>
+.header--nov-event[_ngcontent-ng-c1565954773] {
+  position: relative
+}
+
+.header--nov-event[_ngcontent-ng-c1565954773] .content[_ngcontent-ng-c1565954773] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1
+}
+
+.header--nov-event[_ngcontent-ng-c1565954773] .content[_ngcontent-ng-c1565954773] h2[_ngcontent-ng-c1565954773] {
+  text-shadow: 0px 0px 10px white
+}
+
+.header--nov-event[_ngcontent-ng-c1565954773] .video-container[_ngcontent-ng-c1565954773] video[_ngcontent-ng-c1565954773] {
+  width: 100%;
+  max-height: 700px;
+  min-height: 600px;
+  object-fit: cover;
+  filter: brightness(.5)
+}
+</style>
