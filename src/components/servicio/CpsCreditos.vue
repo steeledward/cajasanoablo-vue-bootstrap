@@ -866,7 +866,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      Edad de 18 a 20 años
+                      18 años en adelante
                     </li>
                     <li>
                       Ser Socio con parte social completa y expediente actualizado
