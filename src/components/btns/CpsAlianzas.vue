@@ -116,45 +116,6 @@
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
-                src="/src/assets/optica-exelentes.webp" alt="optica-exelentes"></div>
-            <h2 _ngcontent-ng-c2365270893>Ópticas Exe-lentes</h2><span _ngcontent-ng-c2365270893>• Descuentos desde el
-              20% al Socio en campañas de salud visual realizadas en la Cooperativa o en cualquier Sucursal de
-              “exelentes”.</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none;"><a
-                _ngcontent-ng-c2365270893 href="https://www.facebook.com/exelentesopticasMX"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/opticas_exelentes"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.tiktok.com/discover/opticas-excelentes?lang=es"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/tik-tok.png"></a><a _ngcontent-ng-c2365270893 href="hola@exelentes.com.mx"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/email.png"></a><a _ngcontent-ng-c2365270893
-                href="33 1283 1738"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a
-                _ngcontent-ng-c2365270893 href="https://exelentes.com.mx/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/Opticas Exe-lentes.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
-          </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
-                src="/src/assets/logo-zapato-agil.webp" alt="logo-zapato-agil"></div>
-            <h2 _ngcontent-ng-c2365270893>ZAPATO ÁGIL</h2><span _ngcontent-ng-c2365270893>20% de descuento en calzado
-              de linea y 15% adicional en mercancia de oferta. (obten el descuento en las sucursales: Matriz, Morelos,
-              Alcalde, Tonalá y Portales</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none;"><a
-                _ngcontent-ng-c2365270893 href="www.facebook.com/ZapatoAgilMX"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/facebook.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/zapatoagiloficial"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.youtube.com/channel/UC-SZO2HgdlWOtccXICuFhzA"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/youtube.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.tiktok.com/@zapatoagiloficial"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/tik-tok.png"></a><a _ngcontent-ng-c2365270893 href="33 2310 7798"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
-                href="https://zapatoagil.com/"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/sitio-web.png"></a>
-            </div><a _ngcontent-ng-c2365270893 target="_blank" href="/src/assets/pdf/Zapato Agil.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
-          </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
                 src="/src/assets/CEO (Centro de Estudios Profecionales).webp"
                 alt="CEO (Centro de Estudios Profecionales)">
             </div>
@@ -171,22 +132,6 @@
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
               href="/src/assets/pdf/(CEP) Centro de Estudios Profecionales.pdf"><button _ngcontent-ng-c2365270893>Leer
                 más</button></a>
-          </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
-                src="/src/assets/CECATI 7.webp" alt="CECATI 7"></div>
-            <h2 _ngcontent-ng-c2365270893>CECATI 7</h2><span _ngcontent-ng-c2365270893>Descuento: 30% cursos
-              presenciales de lunes a viernes</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none;"><a
-                _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/Cecati07CursosyCapacitaciones/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png"></a><a _ngcontent-ng-c2365270893
-                href="cecati7.vinc@dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png"></a><a _ngcontent-ng-c2365270893 href="33 3618 6043"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
-                href="dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/sitio-web.png"></a>
-            </div><a _ngcontent-ng-c2365270893 target="_blank" href="/src/assets/pdf/cecati.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
@@ -280,57 +225,6 @@
                 href="https://equipossolares.com/"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
               href="/src/assets/pdf/Distring.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
-          </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
-                src="/src/assets/OPTI IMAGEN.webp" alt="OPTI IMAGEN"></div>
-            <h2 _ngcontent-ng-c2365270893>OPTI IMAGEN</h2><span _ngcontent-ng-c2365270893>Descuento: 20% en productos
-              y servicios.</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none;"><a
-                _ngcontent-ng-c2365270893 href="https://www.facebook.com/optiimagengd"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/facebook.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/optiimagengdl"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png"></a><a _ngcontent-ng-c2365270893
-                href="optiimagengdl@gmail.com"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/email.png"></a><a
-                _ngcontent-ng-c2365270893 href="33 2786 1385"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/telefono.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/OPTI IMAGEN.pdf"><button _ngcontent-ng-c2365270893>Leer
-                más</button></a>
-          </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
-                src="/src/assets/volver_a_escuchar.webp" alt="volver_a_escuchar"></div>
-            <h2 _ngcontent-ng-c2365270893>VOLVER A ESCUCHAR</h2><span _ngcontent-ng-c2365270893>Descuento: del 3 al
-              10%.</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none;"><a
-                _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/profile.php?id=100065055829627&amp;paipv=0&amp;eav=AfY_in0-HnEVkSBCjzh6KmVYCFyAiw95pm7HbuosOuSvneT-vnr2ubOcJ1CDk2PIJg0"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/volver.a.escuchar"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png"></a><a _ngcontent-ng-c2365270893
-                href="volveraescuchar@gmail.com"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/email.png"></a><a
-                _ngcontent-ng-c2365270893 href="3311085319"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
-                href="https://volveraescucharaparatosauditivos.com/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/VOLVER A ESCUCHAR.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
-          </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
-                src="/src/assets/SILOE.webp" alt="SILOE"></div>
-            <h2 _ngcontent-ng-c2365270893>HOSPITAL SILOÉ</h2><span _ngcontent-ng-c2365270893>Descuento: 10% en
-              consulta para Socios.</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none;"><a
-                _ngcontent-ng-c2365270893 href="https://www.facebook.com/HospitalSiloe/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/facebook.png"></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/hospital_siloe/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png"></a><a _ngcontent-ng-c2365270893
-                href="info@hospitalsiloe.com"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/email.png"></a><a
-                _ngcontent-ng-c2365270893 href="33 1647 4563"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
-                href="https://hospitalsiloe.com/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/hospital siloe.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
