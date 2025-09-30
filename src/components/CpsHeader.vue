@@ -4,7 +4,7 @@
       <div _ngcontent-ng-c2531277376 class="row">
         <div _ngcontent-ng-c2531277376 class="col-6 d-flex align-items-center justify-content-center gap-2">
           CONOCE LOS
-          <a _ngcontent-ng-c2531277376 href="src/assets/pdf/dias inhabiles.pdf" target="_blank">DÍAS INHÁBILES
+          <a _ngcontent-ng-c2531277376 href="/assets/pdf/dias inhabiles.pdf" target="_blank">DÍAS INHÁBILES
             2025</a>
         </div>
         <div _ngcontent-ng-c2531277376 class="col-6 d-flex align-items-center justify-content-center gap-2">

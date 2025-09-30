@@ -66,14 +66,14 @@
           <div _ngcontent-ng-c3492076768 class="row">
             <div _ngcontent-ng-c3492076768 class="col-12 col-md-6">
               <p _ngcontent-ng-c3492076768>Consulta nuestro aviso de datos <strong _ngcontent-ng-c3492076768>dando click
-                  en la imagen</strong></p><a _ngcontent-ng-c3492076768 href="/src/assets/pdf/datos de cobranza.pdf"
+                  en la imagen</strong></p><a _ngcontent-ng-c3492076768 href="/assets/pdf/datos de cobranza.pdf"
                 target="_blank"><img _ngcontent-ng-c3492076768 src="/src/assets/Despachos.webp"
                   alt="Despacho de cobranza" class="img-fluid"></a>
             </div>
             <div _ngcontent-ng-c3492076768 class="col-12 col-md-6">
               <p _ngcontent-ng-c3492076768>Consultar nuestro directorio <strong _ngcontent-ng-c3492076768>dando click en
                   la imagen</strong></p><a _ngcontent-ng-c3492076768
-                href="/src/assets/pdf/AVISO DE DATOS DESPACHOS DE COBRANZA.pdf" target="_blank"><img
+                href="/assets/pdf/AVISO DE DATOS DESPACHOS DE COBRANZA.pdf" target="_blank"><img
                   _ngcontent-ng-c3492076768 src="/src/assets/Aviso de datos de Despachos de Cobranza.webp"
                   alt="Despacho de cobranza" class="img-fluid"></a>
             </div>

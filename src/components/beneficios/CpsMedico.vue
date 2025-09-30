@@ -68,7 +68,7 @@
             atención médica general y especialidades con costos preferenciales a nuestros Socios cumplidos. Además
             disfruta de campañas médicas gratuitas y convenios con importantes instituciones. Realiza tu cita llamando
             al (33) 38 01 87 80 con la Srita. Josefina Rivera Montoya </p><a _ngcontent-ng-c1371066313
-            href="/src/assets/pdf/especialidades.pdf" target="_blank"><button _ngcontent-ng-c1371066313
+            href="/assets/pdf/especialidades.pdf" target="_blank"><button _ngcontent-ng-c1371066313
               class="btn btn-lg text-white">VER ESPECIALISTAS</button></a>
           <div _ngcontent-ng-c1371066313 class="row pt-5">
             <div _ngcontent-ng-c1371066313 class="col-12 col-md-6 mb-4">

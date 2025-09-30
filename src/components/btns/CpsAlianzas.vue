@@ -71,7 +71,7 @@
                 href="https://www.instagram.com/escuelaclaseyestilo/?hl=es"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/instagram.png"></a><a _ngcontent-ng-c2365270893 href="33 2208 0114"><img
                   _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a></div><a _ngcontent-ng-c2365270893
-              target="_blank" href="/src/assets/pdf/Clase y Estilo.pdf"><button _ngcontent-ng-c2365270893>Leer
+              target="_blank" href="/assets/pdf/Clase y Estilo.pdf"><button _ngcontent-ng-c2365270893>Leer
                 más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
@@ -91,7 +91,7 @@
                 href="33 1599 3781"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a
                 _ngcontent-ng-c2365270893 href="https://www.hotelspacosala.com/"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/SAN JUAN COSALA.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
+              href="/assets/pdf/SAN JUAN COSALA.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
@@ -110,7 +110,7 @@
                   _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
                 href="https://consultorio-dental-rey-quintil.my.canva.site/"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/Consultorio Dental Rey Quintil Guadalajara.pdf"><button
+              href="/assets/pdf/Consultorio Dental Rey Quintil Guadalajara.pdf"><button
                 _ngcontent-ng-c2365270893>Leer
                 más</button></a>
           </div>
@@ -130,7 +130,7 @@
                   src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
                 href="https://cepuniversitario.edu.mx/"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/(CEP) Centro de Estudios Profecionales.pdf"><button _ngcontent-ng-c2365270893>Leer
+              href="/assets/pdf/(CEP) Centro de Estudios Profecionales.pdf"><button _ngcontent-ng-c2365270893>Leer
                 más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
@@ -145,7 +145,7 @@
                   src="/src/assets/icon/email.png"></a><a _ngcontent-ng-c2365270893 href="33 3618 6043"><img
                   _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
                 href="dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/sitio-web.png"></a>
-            </div><a _ngcontent-ng-c2365270893 target="_blank" href="/src/assets/pdf/cecati.pdf"><button
+            </div><a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/cecati.pdf"><button
                 _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
@@ -159,7 +159,7 @@
                 href="33 3643 0990"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a
                 _ngcontent-ng-c2365270893 href="cecati15.vinc@dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/cecati.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
+              href="/assets/pdf/cecati.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
@@ -174,7 +174,7 @@
                   _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
                 href="cecati15.vinc@dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/cecati.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
+              href="/assets/pdf/cecati.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
@@ -190,7 +190,7 @@
                   _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
                 href="cecati15.vinc@dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/cecati.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
+              href="/assets/pdf/cecati.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
@@ -209,7 +209,7 @@
                   src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
                 href="https://www.selvamagica.com.mx/"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/selvaMagica.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
+              href="/assets/pdf/selvaMagica.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
@@ -224,7 +224,7 @@
                   src="/src/assets/icon/telefono.png"></a><a _ngcontent-ng-c2365270893
                 href="https://equipossolares.com/"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/sitio-web.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/Distring.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
+              href="/assets/pdf/Distring.pdf"><button _ngcontent-ng-c2365270893>Leer más</button></a>
           </div>
           <div _ngcontent-ng-c2365270893 class="item col-3">
             <div _ngcontent-ng-c2365270893 class="item-contenido"><img _ngcontent-ng-c2365270893
@@ -240,7 +240,7 @@
                 href="viajesalondra@hotmail.com"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/email.png"></a><a
                 _ngcontent-ng-c2365270893 href="33 1833 2733"><img _ngcontent-ng-c2365270893
                   src="/src/assets/icon/telefono.png"></a></div><a _ngcontent-ng-c2365270893 target="_blank"
-              href="/src/assets/pdf/viajes-alondra.pdf"><button _ngcontent-ng-c2365270893>Leer
+              href="/assets/pdf/viajes-alondra.pdf"><button _ngcontent-ng-c2365270893>Leer
                 más</button></a>
           </div>
         </div>
