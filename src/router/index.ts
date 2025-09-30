@@ -18,6 +18,7 @@ import Historia from '@/components/info/CpsHistoria.vue'
 import Trabajo from '@/components/info/CpsTrabajo.vue'
 import NovEventos from '@/components/servicio/CpsNovEventos.vue'
 import Mantenimiento from '@/components/servicio/CpsMantenimiento.vue'
+import Blog from '@/components/servicio/CpsBlog.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -116,6 +117,11 @@ const router = createRouter({
       path: '/servicio/mantenimiento',
       name: 'mantenimiento',
       component: Mantenimiento,
+    },
+    {
+      path: '/servicio/blog',
+      name: 'blog',
+      component: Blog,
     },
   ],
 })
