@@ -35,7 +35,7 @@ function loadUrl(urlString: string) {
                   <img _ngcontent-ng-c3334962614="" alt="Convocatoria Becas 2025-2026" src="/src/assets/becas_2025.webp"
                     loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
-                  href="/src/assets/pdf/becas_2025.pdf"
+                  href="/assets/pdf/becas_2025.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce la
                   convocatoria </a>
               </div>
@@ -56,7 +56,7 @@ function loadUrl(urlString: string) {
                   <img _ngcontent-ng-c3334962614="" alt="Normativa IFRS9" src="/src/assets/norma_ifrs9.webp"
                     loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
-                  href="/src/assets/pdf/NORMA_IFRS9.pdf"
+                  href="/assets/pdf/NORMA_IFRS9.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Normativa IFRS9
                 </a>
               </div>
@@ -68,7 +68,7 @@ function loadUrl(urlString: string) {
                   <img _ngcontent-ng-c3334962614="" alt="Imagen promocion 2025 - 2026" src="/src/assets/promocion.webp"
                     loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
-                  href="/src/assets/pdf/promociones.pdf"
+                  href="/assets/pdf/promociones.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce las bases
                 </a>
               </div>
@@ -79,7 +79,7 @@ function loadUrl(urlString: string) {
                   <img _ngcontent-ng-c3334962614="" alt="App Móvil banca electrónica guía de usuario"
                     src="/src/assets/SPEI.webp" loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
-                  href="/src/assets/pdf/Guia app.pdf"
+                  href="/assets/pdf/Guia app.pdf"
                   style="background-color: rgb(35, 91, 165); bottom: 10%; color: white; right: 8%;">Guia de usuario SPEI
                 </a>
               </div>
@@ -91,7 +91,7 @@ function loadUrl(urlString: string) {
                     srcset="/src/assets/datos-biometricos-1-movil.webp"><img _ngcontent-ng-c3334962614=""
                     alt="datos biometricos imagen" src="/src/assets/datos-biometricos-1.webp" loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
-                  href="/src/assets/pdf/datos biometricos.pdf"
+                  href="/assets/pdf/datos biometricos.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: rgb(22, 34, 59); min-width: 200px; right: 8%;">¡REGISTRATE
                   YA! </a>
               </div>
@@ -253,7 +253,7 @@ function loadUrl(urlString: string) {
         </div>
         <div class="col d-flex flex-column align-items-center">
           <a target="_blank" class="text-decoration-none animate__animated animate__fadeIn animate__slow"
-            href="/src/assets/pdf/promociones_2025.pdf">
+            href="/assets/pdf/promociones_2025.pdf">
             <div class="image-wrapper position-relative">
               <div class="overlay position-absolute"></div>
               <img loading="lazy" width="250px" height="250px"
@@ -280,7 +280,7 @@ function loadUrl(urlString: string) {
         </div>
         <div class="col d-flex flex-column align-items-center">
           <a target="_blank" class="text-decoration-none animate__animated animate__fadeIn animate__slow"
-            href="/src/assets/pdf/libro-caja.pdf">
+            href="/assets/pdf/libro-caja.pdf">
             <div class="image-wrapper position-relative">
               <div class="overlay position-absolute"></div>
               <img loading="lazy" width="250px" height="250px"
