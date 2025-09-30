@@ -37,7 +37,7 @@ function loadUrl(urlString: string) {
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
                   href="/src/assets/pdf/becas_2025.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce la
-                  convocatoria </a><!----><!---->
+                  convocatoria </a>
               </div>
               <div _ngcontent-ng-c3334962614="" class="carousel-item">
                 <picture _ngcontent-ng-c3334962614="">
@@ -46,7 +46,7 @@ function loadUrl(urlString: string) {
                   <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
                     srcset="/src/assets/anticipar_pagos-movil.webp"><img _ngcontent-ng-c3334962614=""
                     alt="Imagen Gracias por Anticipar tus Pagos" src="/src/assets/anticipar_pagos.webp" loading="lazy">
-                </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery" href=""> </a><!----><!---->
+                </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery" href=""> </a>
               </div>
               <div _ngcontent-ng-c3334962614="" class="carousel-item">
                 <picture _ngcontent-ng-c3334962614="">
@@ -58,7 +58,7 @@ function loadUrl(urlString: string) {
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
                   href="/src/assets/pdf/NORMA_IFRS9.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Normativa IFRS9
-                </a><!----><!---->
+                </a>
               </div>
               <div _ngcontent-ng-c3334962614="" class="carousel-item">
                 <picture _ngcontent-ng-c3334962614="">
@@ -70,7 +70,7 @@ function loadUrl(urlString: string) {
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
                   href="/src/assets/pdf/promociones.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce las bases
-                </a><!----><!---->
+                </a>
               </div>
               <div _ngcontent-ng-c3334962614="" class="carousel-item">
                 <picture _ngcontent-ng-c3334962614="">
@@ -81,7 +81,7 @@ function loadUrl(urlString: string) {
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
                   href="/src/assets/pdf/Guia app.pdf"
                   style="background-color: rgb(35, 91, 165); bottom: 10%; color: white; right: 8%;">Guia de usuario SPEI
-                </a><!----><!---->
+                </a>
               </div>
               <div _ngcontent-ng-c3334962614="" class="carousel-item">
                 <picture _ngcontent-ng-c3334962614="">
@@ -93,7 +93,7 @@ function loadUrl(urlString: string) {
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
                   href="/src/assets/pdf/datos biometricos.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: rgb(22, 34, 59); min-width: 200px; right: 8%;">¡REGISTRATE
-                  YA! </a><!----><!---->
+                  YA! </a>
               </div>
               <div _ngcontent-ng-c3334962614="" class="carousel-item">
                 <picture _ngcontent-ng-c3334962614="">
@@ -105,7 +105,7 @@ function loadUrl(urlString: string) {
                     loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery" href="/servicio/socio"
                   style="background-color: white; bottom: 10%; color: black; left: 50%;">QUIERO SER SOCIO
-                </a><!----><!---->
+                </a>
               </div>
               <div _ngcontent-ng-c3334962614="" class="carousel-item">
                 <picture _ngcontent-ng-c3334962614="">
@@ -116,7 +116,7 @@ function loadUrl(urlString: string) {
                     alt="Alianzas imagen" src="/src/assets/alianzasgal-2.webp" loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery" href="/btns/alianzas"
                   style="background-color: white; bottom: 5%; color: rgb(63, 126, 189); right: 31%;">VER
-                </a><!----><!---->
+                </a>
               </div><!----><button _ngcontent-ng-c3334962614="" type="button" data-bs-target="#carouselExampleControls"
                 data-bs-slide="prev" class="carousel-control-prev"><span _ngcontent-ng-c3334962614="" aria-hidden="true"
                   class="carousel-control-prev-icon"></span><span _ngcontent-ng-c3334962614=""
@@ -244,26 +244,12 @@ function loadUrl(urlString: string) {
               <div class="overlay position-absolute"></div>
               <img loading="lazy" width="250px" height="250px"
                 style="border-radius: 7%; box-shadow: 1px 1px 21px 0px rgba(0, 0, 0, 0.75)"
-                src="/src/assets/img-revistas/revista_agosto_2025.webp" alt="Revista Libertador Cooperativo" />
+                src="/src/assets/img-revistas/revista_septiembre_2025.webp" alt="Revista Libertador Cooperativo" />
             </div>
             <div class="text-center adds-text">
               Revista Libertador Cooperativo
             </div>
-          </a><!----><!---->
-        </div>
-        <div class="col d-flex flex-column align-items-center">
-          <a target="_blank" class="text-decoration-none animate__animated animate__fadeIn animate__slow"
-            href="/src/assets/pdf/REV_Septiembre_2025.pdf">
-            <div class="image-wrapper position-relative">
-              <div class="overlay position-absolute"></div>
-              <img loading="lazy" width="250px" height="250px"
-                style="border-radius: 7%; box-shadow: 1px 1px 21px 0px rgba(0, 0, 0, 0.75)"
-                src="/src/assets/img-revistas/revista_septiembre_2025.webp" alt="Septiembre 2025" />
-            </div>
-            <div class="text-center adds-text">
-              Septiembre 2025
-            </div>
-          </a><!----><!---->
+          </a>
         </div>
         <div class="col d-flex flex-column align-items-center">
           <a target="_blank" class="text-decoration-none animate__animated animate__fadeIn animate__slow"
@@ -277,7 +263,7 @@ function loadUrl(urlString: string) {
             <div class="text-center adds-text">
               Promociones 2025
             </div>
-          </a><!----><!---->
+          </a>
         </div>
         <div class="col d-flex flex-column align-items-center">
           <a class="text-decoration-none animate__animated animate__fadeIn animate__slow" href="/btns/alianzas">
@@ -290,7 +276,7 @@ function loadUrl(urlString: string) {
             <div class="text-center adds-text">
               Alianzas Estratégicas
             </div>
-          </a><!----><!---->
+          </a>
         </div>
         <div class="col d-flex flex-column align-items-center">
           <a target="_blank" class="text-decoration-none animate__animated animate__fadeIn animate__slow"
@@ -304,7 +290,7 @@ function loadUrl(urlString: string) {
             <div class="text-center adds-text">
               Libro Conmemorativo
             </div>
-          </a><!----><!---->
+          </a>
         </div>
         <!---->
       </section>
