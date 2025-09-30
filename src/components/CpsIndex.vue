@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import backgroundImageWeAre from '@/assets/historia.webp'
 
 const weAreStyle = {
@@ -16,122 +15,114 @@ function showCreditDetails(elementId: string) {
   }
 }
 
-const carousel = [
-  {
-    isActive: !1,
-    rlink: !1,
-    path: '/src/assets/becas_2025.webp',
-    alt: 'Convocatoria Becas 2025-2026',
-    btn: !0,
-    href: '/src/assets/pdf/becas_2025.pdf',
-    btntext: 'Conoce la convocatoria',
-    styleBtn: 'background-color: #f4a31a; color: black; right: 8%; bottom: 10%;',
-  },
-  {
-    isActive: !1,
-    rlink: !1,
-    rlinkName: '',
-    path: '/src/assets/anticipar_pagos.webp',
-    alt: 'Imagen Gracias por Anticipar tus Pagos',
-    btn: !0,
-    href: '',
-    btntext: '',
-    styleBtn: '',
-  },
-  {
-    isActive: !1,
-    rlink: !1,
-    path: '/src/assets/norma_ifrs9.webp',
-    alt: 'Normativa IFRS9',
-    btn: !0,
-    href: '/src/assets/pdf/NORMA_IFRS9.pdf',
-    btntext: 'Normativa IFRS9',
-    styleBtn: 'background-color: #f4a31a; color: black; right: 8%; bottom: 10%;',
-  },
-  {
-    isActive: !1,
-    rlink: !1,
-    path: '/src/assets/promocion.webp',
-    alt: 'Imagen promocion 2025 - 2026',
-    btn: !0,
-    href: '/src/assets/pdf/promociones.pdf',
-    btntext: 'Conoce las bases',
-    styleBtn: 'background-color: #f4a31a; color: black; right: 8%; bottom: 10%;',
-  },
-  {
-    isActive: !1,
-    rlink: !1,
-    path: '/src/assets/SPEI',
-    alt: 'App M\xF3vil banca electr\xF3nica gu\xEDa de usuario',
-    btn: !0,
-    href: '/src/assets/pdf/Guia app.pdf',
-    btntext: 'Guia de usuario SPEI',
-    styleBtn: 'background-color: #235ba5; color: white; right: 8%; bottom: 10%;',
-  },
-  {
-    isActive: !1,
-    rlink: !1,
-    path: '/src/assets/datos-biometricos-1',
-    alt: 'datos biometricos imagen',
-    btn: !0,
-    href: '/src/assets/pdf/datos biometricos.pdf',
-    btntext: '\xA1REGISTRATE YA!',
-    styleBtn:
-      'background-color: #f4a31a; color: #16223b; right: 8%; bottom: 10%; min-width: 200px;',
-    etiqueta: 'QUEDA POCO TIEMPO',
-  },
-  {
-    isActive: !1,
-    rlink: !0,
-    rlinkName: '/servicio/socio',
-    path: '/src/assets/inscribeteahora.webp',
-    alt: 'Imagen inscribete ahora es m\xE1s facil',
-    btn: !0,
-    href: '/servicio/socio',
-    btntext: 'QUIERO SER SOCIO',
-    styleBtn: 'background-color: white; color: black; left: 50%; bottom: 10%;',
-  },
-  {
-    isActive: !1,
-    rlink: !0,
-    rlinkName: '/btns/alianzas',
-    path: '/src/assets/alianzasgal.webp',
-    alt: 'Alianzas imagen',
-    btn: !0,
-    href: '/btns/alianzas',
-    btntext: 'VER',
-    styleBtn: 'background-color: white; color: rgb(63, 126, 189); right: 31%; bottom: 5%',
-  },
-]
 </script>
 
 <template>
   <main>
-    <div class="container mb-4">
-      <div id="carouselStart" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div v-for="(value, index) in carousel" :key="index" class="carousel-item"
-            :class="index == 0 ? 'active' : ''">
-            <img :src="value.path" class="d-block w-100" alt="..." />
-            <div v-if="value.href" class="carousel-caption d-none d-md-block">
-              <div class="rounded-btn" :style="value.styleBtn">
-                <a :href="value.href" :target="!value.rlink ? '_blank' : ''">
-                  <h5>{{ value.btntext }}</h5>
-                </a>
-              </div>
+    <app-gallery _ngcontent-ng-c1538472975="" _nghost-ng-c3334962614="">
+      <div _ngcontent-ng-c3334962614="" class="gallery">
+        <div _ngcontent-ng-c3334962614="" id="carouselExampleControls" data-bs-ride="carousel" class="carousel slide">
+          <div _ngcontent-ng-c3334962614="" class="carousel-inner">
+            <div _ngcontent-ng-c3334962614="" class="carousel-item active">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)" srcset="/src/assets/becas_2025.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
+                  srcset="/src/assets/becas_2025-movil.webp">
+                <img _ngcontent-ng-c3334962614="" alt="Convocatoria Becas 2025-2026" src="/src/assets/becas_2025.webp"
+                  loading="auto">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
+                href="/src/assets/pdf/becas_2025.pdf"
+                style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce la
+                convocatoria </a><!----><!---->
             </div>
+            <div _ngcontent-ng-c3334962614="" class="carousel-item">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)"
+                  srcset="/src/assets/anticipar_pagos.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
+                  srcset="/src/assets/anticipar_pagos-movil.webp"><img _ngcontent-ng-c3334962614=""
+                  alt="Imagen Gracias por Anticipar tus Pagos" src="/src/assets/anticipar_pagos.webp" loading="lazy">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery" href=""> </a><!----><!---->
+            </div>
+            <div _ngcontent-ng-c3334962614="" class="carousel-item">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)" srcset="/src/assets/norma_ifrs9.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
+                  srcset="/src/assets/norma_ifrs9-movil.webp">
+                <img _ngcontent-ng-c3334962614="" alt="Normativa IFRS9" src="/src/assets/norma_ifrs9.webp"
+                  loading="lazy">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
+                href="/src/assets/pdf/NORMA_IFRS9.pdf"
+                style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Normativa IFRS9
+              </a><!----><!---->
+            </div>
+            <div _ngcontent-ng-c3334962614="" class="carousel-item">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)" srcset="/src/assets/promocion.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
+                  srcset="/src/assets/promocion-movil.webp">
+                <img _ngcontent-ng-c3334962614="" alt="Imagen promocion 2025 - 2026" src="/src/assets/promocion.webp"
+                  loading="lazy">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
+                href="/src/assets/pdf/promociones.pdf"
+                style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce las bases
+              </a><!----><!---->
+            </div>
+            <div _ngcontent-ng-c3334962614="" class="carousel-item">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)" srcset="/src/assets/SPEI.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)" srcset="/src/assets/SPEI-movil.webp">
+                <img _ngcontent-ng-c3334962614="" alt="App Móvil banca electrónica guía de usuario"
+                  src="/src/assets/SPEI.webp" loading="lazy">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
+                href="/src/assets/pdf/Guia app.pdf"
+                style="background-color: rgb(35, 91, 165); bottom: 10%; color: white; right: 8%;">Guia de usuario SPEI
+              </a><!----><!---->
+            </div>
+            <div _ngcontent-ng-c3334962614="" class="carousel-item">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)"
+                  srcset="/src/assets/datos-biometricos-1.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
+                  srcset="/src/assets/datos-biometricos-1-movil.webp"><img _ngcontent-ng-c3334962614=""
+                  alt="datos biometricos imagen" src="/src/assets/datos-biometricos-1.webp" loading="lazy">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
+                href="/src/assets/pdf/datos biometricos.pdf"
+                style="background-color: rgb(244, 163, 26); bottom: 10%; color: rgb(22, 34, 59); min-width: 200px; right: 8%;">¡REGISTRATE
+                YA! </a><!----><!---->
+            </div>
+            <div _ngcontent-ng-c3334962614="" class="carousel-item">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)"
+                  srcset="/src/assets/inscribeteahoraesmásfacil.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
+                  srcset="/src/assets/inscribeteahoraesmásfacil-movil.webp"><img _ngcontent-ng-c3334962614=""
+                  alt="Imagen inscribete ahora es más facil" src="/src/assets/inscribeteahoraesmásfacil.webp"
+                  loading="lazy">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery" href="/servicio/socio"
+                style="background-color: white; bottom: 10%; color: black; left: 50%;">QUIERO SER SOCIO
+              </a><!----><!---->
+            </div>
+            <div _ngcontent-ng-c3334962614="" class="carousel-item">
+              <picture _ngcontent-ng-c3334962614="">
+                <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)" srcset="/src/assets/alianzasgal-2.webp">
+                <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
+                  srcset="/src/assets/alianzasgal-2-movil.webp"><img _ngcontent-ng-c3334962614="" alt="Alianzas imagen"
+                  src="/src/assets/alianzasgal-2.webp" loading="lazy">
+              </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery" href="/btns/alianzas"
+                style="background-color: white; bottom: 5%; color: rgb(63, 126, 189); right: 31%;">VER
+              </a><!----><!---->
+            </div><!----><button _ngcontent-ng-c3334962614="" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev" class="carousel-control-prev"><span _ngcontent-ng-c3334962614="" aria-hidden="true"
+                class="carousel-control-prev-icon"></span><span _ngcontent-ng-c3334962614=""
+                class="visually-hidden">Previous</span></button><button _ngcontent-ng-c3334962614="" type="button"
+              data-bs-target="#carouselExampleControls" data-bs-slide="next" class="carousel-control-next"><span
+                _ngcontent-ng-c3334962614="" aria-hidden="true" class="carousel-control-next-icon"></span><span
+                _ngcontent-ng-c3334962614="" class="visually-hidden">Next</span></button>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselStart" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselStart" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
+    </app-gallery>
     <div class="container mb-3">
       <div class="row row-cols-1 row-cols-lg-4 g-4">
         <div class="col">
@@ -749,6 +740,23 @@ const carousel = [
   </main>
 </template>
 <style scoped>
+.gallery[_ngcontent-ng-c3334962614] picture[_ngcontent-ng-c3334962614] img[_ngcontent-ng-c3334962614] {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gallery[_ngcontent-ng-c3334962614] .btnGallery[_ngcontent-ng-c3334962614] {
+  min-width: fit-content;
+  text-align: center;
+  border-radius: 45px;
+  width: 20%;
+  font-weight: 700;
+  padding: 10px;
+  position: absolute;
+  transition: all 1s ease;
+}
+
 .preg-frec[_ngcontent-ng-c3795751133] .accordion-button[_ngcontent-ng-c3795751133] {
   margin: 5px 0;
   font-size: 1.3rem;
