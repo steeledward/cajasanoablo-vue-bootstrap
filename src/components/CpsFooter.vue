@@ -22,7 +22,7 @@
                   aria-label="Visita la pagina oficial de la Condusef" target="_blank">Condusef</a>
               </li>
               <li _ngcontent-ng-c1137708448>
-                <a _ngcontent-ng-c1137708448 href="src/assets/pdf/unidad especializada.pdf"
+                <a _ngcontent-ng-c1137708448 href="/assets/pdf/unidad especializada.pdf"
                   aria-label="Abrir PDF Unidad Especializada de Atencion a Socios" target="_blank">Unidad
                   Especializada de Atencion a Socios</a>
               </li>
@@ -31,11 +31,11 @@
                   aria-label="Abrir PDF Despachos de Cobranza Externos">Despachos de Cobranza Externos</a>
               </li>
               <li _ngcontent-ng-c1137708448>
-                <a _ngcontent-ng-c1137708448 href="src/assets/pdf/derechos_arco.pdf"
+                <a _ngcontent-ng-c1137708448 href="/assets/pdf/derechos_arco.pdf"
                   aria-label="Abrir PDF Derechos Arco" target="_blank">Derechos Arco</a>
               </li>
               <li _ngcontent-ng-c1137708448>
-                <a _ngcontent-ng-c1137708448 href="src/assets/pdf/CostosYComiciones_Enero 2025.pdf"
+                <a _ngcontent-ng-c1137708448 href="/assets/pdf/CostosYComiciones_Enero 2025.pdf"
                   aria-label="Abrir PDF Costos y Comisiones" target="_blank">Costos y Comisiones</a>
               </li>
             </ul>
