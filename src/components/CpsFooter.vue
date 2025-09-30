@@ -3,8 +3,8 @@
     <div _ngcontent-ng-c1137708448 class="footer-content">
       <div _ngcontent-ng-c1137708448 class="container">
         <div _ngcontent-ng-c1137708448 class="row">
-          <div _ngcontent-ng-c1137708448 routerlink="info/buro" class="footer-img col-12 col-md-4" tabindex="0">
-            <img _ngcontent-ng-c1137708448 loading="lazy" width="120" height="110"
+          <div _ngcontent-ng-c1137708448 class="footer-img col-12 col-md-4" tabindex="0">
+            <img @click="loadUrl('/info/buro')" _ngcontent-ng-c1137708448 loading="lazy" width="120" height="110"
               src="/src/assets/icon/logo-de-buro.webp" alt="logo buro" />
           </div>
           <hr _ngcontent-ng-c1137708448 class="linea-horizontal d-md-none" />
@@ -103,3 +103,8 @@
     </div>
   </footer>
 </template>
+<script setup lang="ts">
+function loadUrl(urlString: string) {
+  window.location.href = urlString
+}
+</script>

@@ -20,6 +20,7 @@ import NovEventos from '@/components/servicio/CpsNovEventos.vue'
 import Mantenimiento from '@/components/servicio/CpsMantenimiento.vue'
 import Blog from '@/components/servicio/CpsBlog.vue'
 import Buzon from '@/components/servicio/CpsBuzon.vue'
+import Buro from '@/components/info/CpsBuro.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -128,6 +129,11 @@ const router = createRouter({
       path: '/servicio/buzon',
       name: 'buzon',
       component: Buzon,
+    },
+    {
+      path: '/info/buro',
+      name: 'buro',
+      component: Buro,
     },
   ],
 })
