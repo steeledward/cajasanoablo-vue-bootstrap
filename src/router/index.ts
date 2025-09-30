@@ -14,6 +14,7 @@ import Alianzas from '@/components/btns/CpsAlianzas.vue'
 import Revistas from '@/components/btns/CpsRevistas.vue'
 import Aviso from '@/components/info/CpsAviso.vue'
 import DespachosCobranza from '@/components/info/CpsDespachosCobranza.vue'
+import Historia from '@/components/info/CpsHistoria.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -92,6 +93,11 @@ const router = createRouter({
       path: '/info/despachos-cobranza',
       name: 'despachos-cobranza',
       component: DespachosCobranza,
+    },
+    {
+      path: '/info/historia',
+      name: 'historia',
+      component: Historia,
     },
   ],
 })

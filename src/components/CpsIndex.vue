@@ -15,6 +15,9 @@ function showCreditDetails(elementId: string) {
   }
 }
 
+function loadUrl(urlString: string) {
+  window.location.href = urlString
+}
 </script>
 
 <template>
@@ -316,9 +319,9 @@ function showCreditDetails(elementId: string) {
               <div class="d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
                 <div class="text-white fs-2 united-text">"UNIDOS EN LA
                   COOPERACIÓN, POR UN FUTURO MEJOR"</div>
-                <div routerlink="/info/historia" class="circuloycheck animate__animated animate__fadeInUp animate__slow"
-                  tabindex="0"><img loading="lazy" width="50px" height="50px" src="/src/assets/icon/cheque.webp"
-                    alt="icono check">
+                <div @click="loadUrl('/info/historia')"
+                  class="circuloycheck animate__animated animate__fadeInUp animate__slow" tabindex="0"><img
+                    loading="lazy" width="50px" height="50px" src="/src/assets/icon/cheque.webp" alt="icono check">
                   <div class="texto-circulo">HISTORIA</div>
                 </div>
                 <div routerlink="/info/trabajo"
