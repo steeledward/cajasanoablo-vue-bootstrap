@@ -33,7 +33,7 @@ function loadUrl(urlString: string) {
                   <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
                     srcset="/src/assets/becas_2025-movil.webp">
                   <img _ngcontent-ng-c3334962614="" alt="Convocatoria Becas 2025-2026" src="/src/assets/becas_2025.webp"
-                    loading="auto">
+                    loading="lazy">
                 </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
                   href="/src/assets/pdf/becas_2025.pdf"
                   style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce la
