@@ -7,7 +7,7 @@ const weAreStyle = {
   backgroundPosition: 'center'
 }
 
-function showCreditDetails(elementId: string) {
+function showDetails(elementId: string) {
   const element = document.getElementById(elementId);
   if (element) { // Check if the element exists
     element.style.display = element.style.display == "block" ? "none" : "block";
@@ -387,7 +387,7 @@ function loadUrl(urlString: string) {
                 <div _ngcontent-ng-c3795751133="" class="titulofb text-center fs-1 my-4 text-center">Preguntas
                   Frecuentes</div>
                 <div _ngcontent-ng-c3795751133="" id="pregfrecbtn" class="nov-event-boton"
-                  @click="showCreditDetails('pregfrec')">Ver más</div>
+                  @click="showDetails('pregfrec')">Ver más</div>
                 <div _ngcontent-ng-c3795751133="" id="pregfrec" class="container" style="display: none;">
                   <div _ngcontent-ng-c3795751133="" id="accordionFlushExample" class="accordion accordion-flush">
                     <div _ngcontent-ng-c3795751133="" class="accordion-item">
