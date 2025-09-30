@@ -153,7 +153,7 @@
 }
 
 .quienes-somos[_ngcontent-ng-c23970189] .logo[_ngcontent-ng-c23970189] {
-  background-image: url("./media/LOGOTIPO1-N5CLWHFF.webp");
+  background-image: url("/src/assets/media/LOGOTIPO1-N5CLWHFF.webp");
   background-size: cover;
   height: 45px;
   width: 35px
@@ -194,15 +194,15 @@
 }
 
 .mvv[_ngcontent-ng-c23970189] .mision[_ngcontent-ng-c23970189] {
-  background-image: url("./media/mision-6XM2ESYQ.webp")
+  background-image: url("/src/assets/mision-6XM2ESYQ.webp")
 }
 
 .mvv[_ngcontent-ng-c23970189] .vision[_ngcontent-ng-c23970189] {
-  background-image: url("./media/testigo-ODA3STMN.webp")
+  background-image: url("/src/assets/testigo-ODA3STMN.webp")
 }
 
 .mvv[_ngcontent-ng-c23970189] .valores[_ngcontent-ng-c23970189] {
-  background-image: url("./media/propuesta-de-valor-MFU5OJD3.webp")
+  background-image: url("/src/assets/propuesta-de-valor-MFU5OJD3.webp")
 }
 
 header[_ngcontent-ng-c3982346130] {
