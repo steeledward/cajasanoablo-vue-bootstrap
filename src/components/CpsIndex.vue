@@ -324,7 +324,7 @@ function loadUrl(urlString: string) {
                     loading="lazy" width="50px" height="50px" src="/src/assets/icon/cheque.webp" alt="icono check">
                   <div class="texto-circulo">HISTORIA</div>
                 </div>
-                <div routerlink="/info/trabajo"
+                <div @click="loadUrl('/info/trabajo')"
                   class="circuloycheck animate__animated animate__fadeInUp animate__slow animate__delay-1s"
                   tabindex="0"><img loading="lazy" width="50px" height="50px" src="/src/assets/icon/cheque.webp"
                     alt="icono check">
