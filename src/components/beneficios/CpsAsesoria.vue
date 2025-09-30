@@ -97,7 +97,7 @@
                 <div _ngcontent-ng-c2053245155 class="col-1"><i _ngcontent-ng-c2053245155 class="fi fi-sr-user"></i>
                 </div>
                 <div _ngcontent-ng-c2053245155 class="col-11">
-                  <h3 _ngcontent-ng-c2053245155> LIC. MARICELA PONCE MAGDALENO</h3>
+                  <h3 _ngcontent-ng-c2053245155> LIC. JUNIRO JUNIOR RODRIGUEZ VALLES</h3>
                 </div>
               </div>
             </div>
