@@ -107,12 +107,12 @@
                 <a _ngcontent-ng-c3003813254 href="https://www.buro.gob.mx">https://www.buro.gob.mx</a><br
                   _ngcontent-ng-c3003813254 /><br _ngcontent-ng-c3003813254 />
               </p>
-              <h3 _ngcontent-ng-c3003813254>Periodo: Enero - Diciembre 2024</h3>
+              <h3 _ngcontent-ng-c3003813254>Periodo: Enero - Marzo 2025</h3>
             </div>
           </div>
           <div _ngcontent-ng-c3003813254 class="tabla position-relative">
-            <img _ngcontent-ng-c3003813254 src="/src/assets/periodo_enero_diciembre_2024.webp"
-              alt="tabla enero - diciembre 2024" />
+            <img _ngcontent-ng-c3003813254 src="/src/assets/buro_Enero_Marzo_2025.png"
+              alt="tabla Enero - Marzo 2025" />
             <div _ngcontent-ng-c3003813254 data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn">
               ver
             </div>
