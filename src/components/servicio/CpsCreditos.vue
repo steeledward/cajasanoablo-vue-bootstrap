@@ -68,6 +68,9 @@
       </header>
     </div>
     <section class="credito-contaner">
+      <div class="alert alert-light" role="info" style="font-size: large;">
+        <strong>AVISO IMPORTANTE:</strong> Todos los productos de crédito están sujetos a aprobación conforme a las políticas internas y requisitos vigentes. Consulta términos y condiciones en tu sucursal. La Cooperativa se reserva el derecho de solicitar la comprobación del destino del crédito en los casos que así lo determine.
+        </div>
       <div class="credito-tipe">CONSUMO</div>
       <div class="card-container row justify-content-center">
         <div class="col-md-3 card-credito">
