@@ -163,7 +163,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      195.3%
+                      <span class="cat-gat">195.3%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -375,7 +375,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      201.5%
+                      <span class="cat-gat">201.5%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -811,7 +811,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      26.8%
+                      <span class="cat-gat">26.8%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -1047,7 +1047,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      18.5%
+                      <span class="cat-gat">18.5%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -1279,7 +1279,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      13.9%
+                      <span class="cat-gat">13.9%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -1521,7 +1521,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      15.8%
+                      <span class="cat-gat">15.8%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -1757,7 +1757,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      13.5%
+                      <span class="cat-gat">13.5%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -2001,7 +2001,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      12.7%
+                      <span class="cat-gat">12.7%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -2252,7 +2252,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      13.6%
+                      <span class="cat-gat">13.6%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -2490,7 +2490,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      13.5%
+                      <span class="cat-gat">13.5%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -2729,7 +2729,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      13.4%
+                      <span class="cat-gat">13.4%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -2979,7 +2979,7 @@
                 <div class="accordion-body">
                   <ul>
                     <li>
-                      11.1%
+                      <span class="cat-gat">11.1%</span>
                     </li>
                     <li>
                       CAT promedio para fines informativos y de comparación.
@@ -3143,6 +3143,10 @@ function showCreditDetails(elementId: string) {
 }
 </script>
 <style lang="css" scoped>
+.cat-gat {
+  font-size: large;
+  font-weight: bold;
+}
 .back-black {
   background-color: var(--color-gris);
 }
