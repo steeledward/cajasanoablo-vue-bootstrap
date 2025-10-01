@@ -35,7 +35,7 @@
                   aria-label="Abrir PDF Derechos Arco" target="_blank">Derechos Arco</a>
               </li>
               <li _ngcontent-ng-c1137708448>
-                <a _ngcontent-ng-c1137708448 href="/assets/pdf/CostosYComiciones_Enero 2025.pdf"
+                <a _ngcontent-ng-c1137708448 href="/assets/pdf/cat_y_gat_matriz_1_oct_2025.pdf"
                   aria-label="Abrir PDF Costos y Comisiones" target="_blank">Costos y Comisiones</a>
               </li>
             </ul>
