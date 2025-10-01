@@ -65,13 +65,47 @@
         <div _ngcontent-ng-c1565954773 class="row py-5">
           <div _ngcontent-ng-c1565954773 class="col-12 col-md-4 col-xl-3">
             <div _ngcontent-ng-c1565954773 class="card mb-2"><img _ngcontent-ng-c1565954773 class="card-img-top"
-                style="content-visibility: auto;" src="/src/assets/img-madres-2025-event/madre_1.webp"
+                style="content-visibility: auto;" src="/src/assets/img-inauguracion-el-salto/salto_1.jpeg"
                 alt="Imagen día de las Madres 2025">
               <div _ngcontent-ng-c1565954773 class="card-body">
-                <h5 _ngcontent-ng-c1565954773 class="card-title">Evento día de las madres 2025</h5>
-                <p _ngcontent-ng-c1565954773 class="card-text">Imagenes del evento día de las madres 2025</p><a
+                <h5 _ngcontent-ng-c1565954773 class="card-title">Inauguración de la sucursal “El Salto"</h5>
+                <p _ngcontent-ng-c1565954773 class="card-text">Imagenes de la Inauguración de la sucursal “El Salto"</p><a
                   _ngcontent-ng-c1565954773 data-bs-toggle="modal" role="button" class="btn btn-primary"
                   href="#exampleModalToggleMadres2025">VER MAS</a>
+              </div>
+            </div>
+          </div>
+          <div _ngcontent-ng-c1565954773 aria-hidden="true" tabindex="-1" class="modal fade"
+            aria-labelledby="exampleModalToggleLabelMadres2025" id="exampleModalToggleMadres2025">
+            <div _ngcontent-ng-c1565954773 class="modal-dialog modal-dialog-centered">
+              <div _ngcontent-ng-c1565954773 class="modal-content">
+                <div _ngcontent-ng-c1565954773 class="modal-header">
+                  <h5 _ngcontent-ng-c1565954773 class="modal-title" id="exampleModalToggleLabelMadres2025">Inauguración de la sucursal “El Salto”</h5><button _ngcontent-ng-c1565954773 type="button" data-bs-dismiss="modal"
+                    aria-label="Close" class="btn-close"></button>
+                </div>
+                <div _ngcontent-ng-c1565954773 class="modal-body">
+                  <div _ngcontent-ng-c1565954773 data-bs-ride="carousel" class="carousel slide carousel-fade"
+                    id="carouselExampleControlsMadres2025">
+                    <div _ngcontent-ng-c1565954773 class="carousel-inner">
+                      <div _ngcontent-ng-c1565954773 class="carousel-item active"><img _ngcontent-ng-c1565954773
+                          class="d-block w-100" style="content-visibility: auto;"
+                          src="/src/assets/img-inauguracion-el-salto/salto_1.jpeg" alt="Inauguración de la sucursal El Salto">
+                      </div>
+                      <div _ngcontent-ng-c1565954773 class="carousel-item"><img _ngcontent-ng-c1565954773
+                          class="d-block w-100" style="content-visibility: auto;"
+                          src="/src/assets/img-inauguracion-el-salto/salto_2.jpeg" alt="Inauguración de la sucursal El Salto">
+                      </div>
+                      <!---->
+                    </div><button _ngcontent-ng-c1565954773 type="button" data-bs-slide="prev"
+                      class="carousel-control-prev" data-bs-target="#carouselExampleControlsMadres2025"><span
+                        _ngcontent-ng-c1565954773 aria-hidden="true" class="carousel-control-prev-icon"></span><span
+                        _ngcontent-ng-c1565954773 class="visually-hidden">Previous</span></button><button
+                      _ngcontent-ng-c1565954773 type="button" data-bs-slide="next" class="carousel-control-next"
+                      data-bs-target="#carouselExampleControlsMadres2025"><span _ngcontent-ng-c1565954773
+                        aria-hidden="true" class="carousel-control-next-icon"></span><span _ngcontent-ng-c1565954773
+                        class="visually-hidden">Next</span></button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -165,7 +199,8 @@
                 </div>
               </div>
             </div>
-          </div><!---->
+          </div>
+          <!---->
           <div _ngcontent-ng-c1565954773 class="col-12 col-md-4 col-xl-3">
             <div _ngcontent-ng-c1565954773 class="card mb-2"><img _ngcontent-ng-c1565954773 class="card-img-top"
                 style="content-visibility: auto;" src="/src/assets/img-nino-2025-event/nino_1.webp"
