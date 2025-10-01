@@ -3,7 +3,7 @@
     <div title="CRÉDITOS" colortext="text-black" img="creditos" alt="Hombre sonriente con fondo gris"
       _nghost-ng-c3982346130="" ngh="0">
       <header _ngcontent-ng-c3982346130="">
-        <img _ngcontent-ng-c3982346130="" src="/src/assets/creditos.webp" alt="Hombre sonriente con fondo gris">
+        <img _ngcontent-ng-c3982346130="" src="/src/assets/mujer-credito.png" alt="Hombre sonriente con fondo gris">
         <div _ngcontent-ng-c3982346130="" class="title-block">
           <h1 _ngcontent-ng-c3982346130="" class="text-black">CRÉDITOS</h1>
           <div _ngcontent-ng-c3982346130="" _nghost-ng-c472793725="" ngh="0">
@@ -1914,7 +1914,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO PRESTA-MÓVIL
           </h2>
-          <div class="card-credito-btn">
+          <div class="card-credito-btn" @click="showCreditDetails('creditPrestaMovil')">
             Leer más
           </div>
         </div>
