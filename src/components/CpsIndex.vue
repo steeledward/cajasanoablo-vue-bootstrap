@@ -29,18 +29,6 @@ function loadUrl(urlString: string) {
             <div _ngcontent-ng-c3334962614="" class="carousel-inner">
               <div _ngcontent-ng-c3334962614="" class="carousel-item active">
                 <picture _ngcontent-ng-c3334962614="">
-                  <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)" srcset="/src/assets/becas_2025.webp">
-                  <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
-                    srcset="/src/assets/becas_2025-movil.webp">
-                  <img _ngcontent-ng-c3334962614="" alt="Convocatoria Becas 2025-2026" src="/src/assets/becas_2025.webp"
-                    loading="lazy">
-                </picture><a _ngcontent-ng-c3334962614="" target="_blank" class="btnGallery"
-                  href="/assets/pdf/becas_2025.pdf"
-                  style="background-color: rgb(244, 163, 26); bottom: 10%; color: black; right: 8%;">Conoce la
-                  convocatoria </a>
-              </div>
-              <div _ngcontent-ng-c3334962614="" class="carousel-item">
-                <picture _ngcontent-ng-c3334962614="">
                   <source _ngcontent-ng-c3334962614="" media="(min-width: 576px)"
                     srcset="/src/assets/anticipar_pagos.webp">
                   <source _ngcontent-ng-c3334962614="" media="(max-width: 576px)"
