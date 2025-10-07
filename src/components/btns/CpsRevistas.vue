@@ -3,7 +3,7 @@
     <portada-component _ngcontent-ng-c822006615 title="LIBERTADOR" colortext="text-black" img="revistas libertador"
       alt="pareja joven disfrutando tiempo juntos casa" _nghost-ng-c3982346130 ngh="0">
       <header _ngcontent-ng-c3982346130>
-        <img _ngcontent-ng-c3982346130 src="/src/assets/revistas libertador.webp"
+        <img _ngcontent-ng-c3982346130 src="/src/assets/libertador_oct_2025.webp"
           alt="pareja joven disfrutando tiempo juntos casa" />
         <div _ngcontent-ng-c3982346130 class="title-block">
           <h1 _ngcontent-ng-c3982346130 class="text-black">LIBERTADOR</h1>
