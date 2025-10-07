@@ -4,7 +4,7 @@
         colortext="text-white" img="familia-mexicana-sonriente-tiro-medio" alt="familia-mexicana-sonriente-tiro-medio"
         _nghost-ng-c3982346130 ngh="0">
         <header _ngcontent-ng-c3982346130>
-          <img _ngcontent-ng-c3982346130 src="/src/assets/familia-mexicana-sonriente-tiro-medio.webp"
+          <img _ngcontent-ng-c3982346130 src="/src/assets/cuentas_deposito_resized.webp"
             alt="familia-mexicana-sonriente-tiro-medio" />
           <div _ngcontent-ng-c3982346130 class="title-block">
             <h1 _ngcontent-ng-c3982346130 class="text-white">
