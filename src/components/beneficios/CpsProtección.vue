@@ -4,9 +4,9 @@
         title="Protección al Ahorro y Crédito" colortext="text-white" img="proteccion al ahorro y credito"
         alt="Planta con frasco de dinero" _nghost-ng-c3982346130 ngh="0">
         <header _ngcontent-ng-c3982346130><img _ngcontent-ng-c3982346130
-            src="/src/assets/proteccion_ahorro_credito.webp" alt="Planta con frasco de dinero">
+            src="/src/assets/proteccion_al_ahorro_y_credito.webp" alt="Planta con frasco de dinero">
           <div _ngcontent-ng-c3982346130 class="title-block">
-            <h1 _ngcontent-ng-c3982346130 class="text-white">Protección al Ahorro y Crédito</h1><app-redes-sociales
+            <h1 _ngcontent-ng-c3982346130 class="text-black">Protección al Ahorro y Crédito</h1><app-redes-sociales
               _ngcontent-ng-c3982346130 _nghost-ng-c472793725 ngh="0">
               <div _ngcontent-ng-c472793725 class="redes-sociales"><a _ngcontent-ng-c472793725
                   href="https://www.facebook.com/CajaSanPabloOficial/" target="_blank"
@@ -54,7 +54,7 @@
                     <path _ngcontent-ng-c472793725=""
                       d="M22.465,9.866c-2.139,0-4.122-0.684-5.74-1.846v8.385c0,4.188-3.407,7.594-7.594,7.594c-1.618,0-3.119-0.51-4.352-1.376  c-1.958-1.375-3.242-3.649-3.242-6.218c0-4.188,3.407-7.595,7.595-7.595c0.348,0,0.688,0.029,1.023,0.074v0.977v3.235  c-0.324-0.101-0.666-0.16-1.023-0.16c-1.912,0-3.468,1.556-3.468,3.469c0,1.332,0.756,2.489,1.86,3.07  c0.481,0.253,1.028,0.398,1.609,0.398c1.868,0,3.392-1.486,3.462-3.338L12.598,0h4.126c0,0.358,0.035,0.707,0.097,1.047  c0.291,1.572,1.224,2.921,2.517,3.764c0.9,0.587,1.974,0.93,3.126,0.93V9.866z" />
                   </svg></a></div>
-              <div _ngcontent-ng-c472793725 class="contactanos">
+              <div _ngcontent-ng-c472793725 class="contactanos text-black">
                 <p _ngcontent-ng-c472793725>¡CONTÁCTANOS!</p>
               </div>
             </app-redes-sociales>
@@ -139,9 +139,9 @@ header[_ngcontent-ng-c3982346130] .title-block[_ngcontent-ng-c3982346130] h1[_ng
   width: 50px;
   height: 50px;
   font-size: 1.4rem;
-  fill: #fff;
+  fill: #000;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid black;
   animation: flip;
   animation-duration: 1.5s;
   transition: .55s
