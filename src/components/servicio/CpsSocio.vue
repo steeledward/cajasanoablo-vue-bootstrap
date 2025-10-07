@@ -4,7 +4,7 @@
       <div _ngcontent-ng-c1315296347 title="QUIERO SER SOCIO" colortext="text-black" img="quiero ser socio"
         alt="Dos personas chocando la mano" _nghost-ng-c3982346130 ngh="0">
         <header _ngcontent-ng-c3982346130>
-          <img _ngcontent-ng-c3982346130 src="/src/assets/quiero_ser_socio.webp" alt="Dos personas chocando la mano" />
+          <img _ngcontent-ng-c3982346130 src="/src/assets/quieres_ser_socio.webp" alt="Dos personas chocando la mano" />
           <div _ngcontent-ng-c3982346130 class="title-block">
             <h1 _ngcontent-ng-c3982346130 class="text-black">
               QUIERO SER SOCIO
@@ -258,7 +258,7 @@
 header[_ngcontent-ng-c3982346130] {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
 }
 
 header[_ngcontent-ng-c3982346130] img[_ngcontent-ng-c3982346130] {

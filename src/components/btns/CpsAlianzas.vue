@@ -1,7 +1,7 @@
 <template>
   <main>
     <header _ngcontent-ng-c3982346130>
-      <img _ngcontent-ng-c3982346130 src="/src/assets/bolsa_de_trabajo.webp"
+      <img _ngcontent-ng-c3982346130 src="/src/assets/pago_de_servicios_black.webp"
         alt="apreton manos socios comerciales reunion grupo que hace inversion proyecto primer" />
       <div _ngcontent-ng-c3982346130 class="title-block">
         <h1 _ngcontent-ng-c3982346130 class="text-black">ALIANZAS ESTRATÉGICAS</h1>
