@@ -138,7 +138,7 @@ function loadUrl(urlString: string) {
         </div>
         <div class="col">
           <div class="card h-100 shadow-lg">
-            <img src="/src/assets/img-inicio-cards/corazon.svg" width="140" height="140" class="card-img-top mt-3"
+            <img src="/src/assets/img-inicio-cards/beneficios_oct_2025.webp" width="100%" height="140" class="card-img-top"
               alt="..." />
             <div class="card-body">
               <h5 class="card-title text-center">BENEFICIOS</h5>
