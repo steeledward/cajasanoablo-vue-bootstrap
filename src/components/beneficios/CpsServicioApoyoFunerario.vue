@@ -94,7 +94,7 @@
           <br />
           <ol>
             <li>Llama al call center al 800 504 6455.</li>
-            <li>Identifica al socio (número de socio) y recibe la confirmación.</li>
+            <li>Identifica al Socio (número de Socio) y recibe la confirmación.</li>
             <li>
               Detalla el servicio que necesitas: ¿información, cremación, velación en sala,
               funeraria o domicilio, traslado?
@@ -104,7 +104,7 @@
             <li>Más información: anemex.com.mx</li>
           </ol>
 
-          <strong>¿Este apoyo está disponible para todos los socios de Caja Popular San Pablo?</strong>
+          <strong>¿Este apoyo está disponible para todos los Socios de Caja Popular San Pablo?</strong>
           <br />
           <br />
           <span>
