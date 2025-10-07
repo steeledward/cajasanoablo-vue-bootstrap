@@ -3,7 +3,7 @@
     <app-buzon _nghost-ng-c2687969733
       ngh="0"><portada-component _ngcontent-ng-c2687969733 title="BUZÓN DE COMENTARIOS" colortext="text-black"
         img="buzon de comentarios" alt="Mujer con laptop sentada sonriendo" _nghost-ng-c3982346130 ngh="0">
-        <header _ngcontent-ng-c3982346130><img _ngcontent-ng-c3982346130 src="/src/assets/buzon de comentarios.webp"
+        <header _ngcontent-ng-c3982346130><img _ngcontent-ng-c3982346130 src="/src/assets/buzon_de_comentarios.webp"
             alt="Mujer con laptop sentada sonriendo">
           <div _ngcontent-ng-c3982346130 class="title-block">
             <h1 _ngcontent-ng-c3982346130 class="text-black">BUZÓN DE COMENTARIOS</h1><app-redes-sociales
