@@ -138,7 +138,7 @@ function loadUrl(urlString: string) {
         </div>
         <div class="col">
           <div class="card h-100 shadow-lg">
-            <img src="/src/assets/img-inicio-cards/beneficios_oct_2025.webp" width="100%" height="140" class="card-img-top"
+            <img src="/src/assets/img-inicio-cards/beneficios_oct_2025.webp" class="card-img-top"
               alt="..." />
             <div class="card-body">
               <h5 class="card-title text-center">BENEFICIOS</h5>
@@ -184,12 +184,7 @@ function loadUrl(urlString: string) {
         </div>
         <div class="col">
           <div class="card h-100 shadow-lg">
-            <img src="/src/assets/img-inicio-cards/puerco_educoof.webp" class="card-img-top img-large" alt="..." style="
-                object-fit: contain;
-                background-color: var(--color-azul-oscuro);
-                width: 100%;
-                height: 200px;
-              " />
+            <img src="/src/assets/img-inicio-cards/educacion_cooperativa_y_financiera.webp" class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title text-center">EDUCACIÓN COOPERATIVA Y FINANCIERA</h5>
               <p class="card-text text-center text-cards-description">

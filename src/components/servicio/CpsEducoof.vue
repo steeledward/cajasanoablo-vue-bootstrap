@@ -2,10 +2,10 @@
   <main>
     <portada-component _ngcontent-ng-c803880167 title="EDUCACIÓN COOPERATIVA Y FINANCIERA" colortext="text-black"
       img="Portada-educoof" alt="Dos personas chocando la mano" _nghost-ng-c3982346130 ngh="0">
-      <header _ngcontent-ng-c3982346130><img _ngcontent-ng-c3982346130 src="/src/assets/portada-educoof.webp"
+      <header _ngcontent-ng-c3982346130><img _ngcontent-ng-c3982346130 src="/src/assets/img-inicio-cards/educacion_cooperativa_y_financiera.webp"
           alt="Dos personas chocando la mano">
         <div _ngcontent-ng-c3982346130 class="title-block">
-          <h1 _ngcontent-ng-c3982346130 class="text-black">EDUCACIÓN COOPERATIVA Y FINANCIERA</h1><app-redes-sociales
+          <h1 _ngcontent-ng-c3982346130 class="text-white">EDUCACIÓN COOPERATIVA Y FINANCIERA</h1><app-redes-sociales
             _ngcontent-ng-c3982346130 _nghost-ng-c472793725 ngh="0">
             <div _ngcontent-ng-c472793725 class="redes-sociales"><a _ngcontent-ng-c472793725
                 href="https://www.facebook.com/CajaSanPabloOficial/" target="_blank"
