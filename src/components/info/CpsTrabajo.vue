@@ -3,7 +3,7 @@
     <ng-component _nghost-ng-c1769847745 ngh="0"><portada-component _ngcontent-ng-c1769847745 title="BOLSA DE TRABAJO"
         colortext="text-black" img="bolsa de trabajo" alt="Dos mujeres empresarias" _nghost-ng-c3982346130 ngh="0">
         <header _ngcontent-ng-c3982346130>
-          <img _ngcontent-ng-c3982346130 src="/src/assets/bolsa de trabajo.webp" alt="Dos mujeres empresarias" />
+          <img _ngcontent-ng-c3982346130 src="/src/assets/bolsa_de_trabajo_oct_2025.webp" alt="Dos mujeres empresarias" />
           <div _ngcontent-ng-c3982346130 class="title-block">
             <h1 _ngcontent-ng-c3982346130 class="text-black">
               BOLSA DE TRABAJO
@@ -72,9 +72,6 @@
             <div _ngcontent-ng-c1769847745
               class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start gap-1">
               <h1 _ngcontent-ng-c1769847745>¿Buscas trabajo?</h1>
-              <p _ngcontent-ng-c1769847745>
-                ¿Quieres unirte a nuestro equipo?
-              </p>
               <p _ngcontent-ng-c1769847745>
                 ¿Quieres ser parte de una empresa líder en el mercado?
               </p>

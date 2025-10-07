@@ -176,7 +176,7 @@
 }
 
 .revistas[_ngcontent-ng-c822006615] .card-revista[_ngcontent-ng-c822006615] .card-title[_ngcontent-ng-c822006615] {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #777;
 }
 
