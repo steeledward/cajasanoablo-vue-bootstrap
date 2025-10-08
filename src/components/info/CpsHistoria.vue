@@ -6,7 +6,7 @@
         <header _ngcontent-ng-c3982346130><img _ngcontent-ng-c3982346130 src="/src/assets/historia.webp"
             alt="foto sucursal caja popular san pablo matriz">
           <div _ngcontent-ng-c3982346130 class="title-block">
-            <h1 _ngcontent-ng-c3982346130 class="text-white">HISTORIA</h1><app-redes-sociales _ngcontent-ng-c3982346130
+            <h1 _ngcontent-ng-c3982346130 class="text-black">HISTORIA</h1><app-redes-sociales _ngcontent-ng-c3982346130
               _nghost-ng-c472793725 ngh="0">
               <div _ngcontent-ng-c472793725 class="redes-sociales"><a _ngcontent-ng-c472793725
                   href="https://www.facebook.com/CajaSanPabloOficial/" target="_blank"
