@@ -241,7 +241,7 @@ function loadUrl(urlString: string) {
               <div class="overlay position-absolute"></div>
               <img loading="lazy" width="250px" height="250px"
                 style="border-radius: 7%; box-shadow: 1px 1px 21px 0px rgba(0, 0, 0, 0.75)"
-                src="/src/assets/img-revistas/revista_septiembre_2025.webp" alt="Revista Libertador Cooperativo" />
+                src="/src/assets/img-revistas/revista_oct_2025.webp" alt="Revista Libertador Cooperativo" />
             </div>
             <div class="text-center adds-text">Revista Libertador Cooperativo</div>
           </a>

@@ -82,6 +82,14 @@
       <div _ngcontent-ng-c822006615 class="row gap-5 justify-content-around mb-5">
         <!---->
         <a _ngcontent-ng-c822006615 target="_blank" class="card-revista col-3 p-0"
+          href="/assets/pdf/REV_Octubre_2025.pdf">
+          <img _ngcontent-ng-c822006615 alt="Revistas 2024" class="card-img"
+            src="/src/assets/img-revistas/revista_oct_2025.webp" />
+          <div _ngcontent-ng-c822006615 class="card-title my-4 text-center">Octubre 2025</div>
+          <div _ngcontent-ng-c822006615 class="btn-leer-mas text-center">Leer más</div>
+        </a>
+        <!---->
+        <a _ngcontent-ng-c822006615 target="_blank" class="card-revista col-3 p-0"
           href="/assets/pdf/REV_Septiembre_2025.pdf">
           <img _ngcontent-ng-c822006615 alt="Revistas 2024" class="card-img"
             src="/src/assets/img-revistas/revista_septiembre_2025.webp" />
@@ -113,8 +121,7 @@
           <div _ngcontent-ng-c822006615 class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a _ngcontent-ng-c822006615 target="_blank" class="card-revista col-3 p-0"
-          href="/assets/pdf/REV_Mayo_2025.pdf">
+        <a _ngcontent-ng-c822006615 target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Mayo_2025.pdf">
           <img _ngcontent-ng-c822006615 alt="Revistas 2024" class="card-img"
             src="/src/assets/img-revistas/REV_Mayo_2025.webp" />
           <div _ngcontent-ng-c822006615 class="card-title my-4 text-center">Mayo 2025</div>
