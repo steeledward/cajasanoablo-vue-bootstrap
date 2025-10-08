@@ -65,15 +65,74 @@
           </div>
         </header>
       </portada-component>
-      <section _ngcontent-ng-c1301576405 class="ahorros--container container">
-        <div _ngcontent-ng-c1301576405 class="card-container row no-padding justify-content-center">
-          <div _ngcontent-ng-c1301576405 class="card-ahorro d-flex col-6"
-            @:click="showCreditDetails('accordionFlushExampleAdult')">
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-img adulto"></div>
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-title align-items-center">
-              AHORRO ADULTO
+
+      <div class="container mb-3 mt-5">
+        <div class="row row-cols-1 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <img src="/src/assets/media/ahorro_ adulto_300x.webp" class="card-img-top mt-3" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center text-cards-description">
+                  Cuenta dónde se realizan depósitos en moneda nacional cuyo saldo recibe un interés anual fijo.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <div class="btn btn-cards" @:click="showDetails('accordionFlushExampleAdult')">
+                  Ver detalles
+                </div>
+              </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <img src="/src/assets/media/ahorro_menores_1_300x.webp" class="card-img-top mt-3" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center text-cards-description">
+                  Cuenta dónde se realizan depósitos en moneda nacional, cuyo propósito es inculcar el hábito del ahorro a los menores de edad de 1 a 17 años.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <div class="btn btn-cards" @:click="showDetails('accordionFlushExampleMenors')">
+                  Ver detalles
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <img src="/src/assets/media/cuenta_corriente_300x.webp" class="card-img-top mt-3" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center text-cards-description">
+                  Cuenta dónde se realizan depósitos en moneda nacional, con disponibilidad inmediata.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <div class="btn btn-cards" @:click="showDetails('accordionFlushExampleCurrent')">
+                  Ver detalles
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <img src="/src/assets/media/plazo_fijo_300x.webp" class="card-img-top mt-3" alt="..." />
+              <div class="card-body">
+                <p class="card-text text-center text-cards-description">
+                  Cuenta de inversión que te permite depositar dinero en moneda nacional, durante el plazo único de 28 días, generando rendimientos al término del plazo contratado.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <div class="btn btn-cards" @:click="showDetails('accordionFlushExampleFixed')">
+                  Ver detalles
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section _ngcontent-ng-c1301576405 class="ahorros--container container">
+        <div _ngcontent-ng-c1301576405 class="card-container row no-padding justify-content-center">
           <div _ngcontent-ng-c1301576405 class="card-ahorro-info" style="display: none" id="accordionFlushExampleAdult">
             <div _ngcontent-ng-c1301576405 class="card-ahorro-title title-sub">
               AHORRO ADULTO
@@ -302,13 +361,6 @@
               </div>
             </div>
           </div>
-          <div _ngcontent-ng-c1301576405 class="card-ahorro d-flex col-6"
-            @:click="showCreditDetails('accordionFlushExampleMenors')">
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-img menores"></div>
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-title align-items-center">
-              AHORRO MENORES
-            </div>
-          </div>
           <div _ngcontent-ng-c1301576405 class="card-ahorro-info" style="display: none"
             id="accordionFlushExampleMenors">
             <div _ngcontent-ng-c1301576405 class="card-ahorro-title title-sub">
@@ -527,13 +579,6 @@
               </div>
             </div>
           </div>
-          <div _ngcontent-ng-c1301576405 class="card-ahorro d-flex col-6"
-            @:click="showCreditDetails('accordionFlushExampleCurrent')">
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-img corriente"></div>
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-title align-items-center">
-              CUENTA CORRIENTE
-            </div>
-          </div>
           <div _ngcontent-ng-c1301576405 class="card-ahorro-info" style="display: none"
             id="accordionFlushExampleCurrent">
             <div _ngcontent-ng-c1301576405 class="card-ahorro-title title-sub">
@@ -730,13 +775,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div _ngcontent-ng-c1301576405 class="card-ahorro d-flex col-6"
-            @:click="showCreditDetails('accordionFlushExampleFixed')">
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-img fijo"></div>
-            <div _ngcontent-ng-c1301576405 class="card-ahorro-title align-items-center justify-content-center">
-              PLAZO FIJO
             </div>
           </div>
           <div _ngcontent-ng-c1301576405 class="card-ahorro-info" style="display: none" id="accordionFlushExampleFixed">
@@ -1011,7 +1049,7 @@
   </main>
 </template>
 <script setup lang="ts">
-function showCreditDetails(elementId: string) {
+function showDetails(elementId: string) {
   const element = document.getElementById(elementId);
   if (element) { // Check if the element exists
     element.style.display = element.style.display == "block" ? "none" : "block";
@@ -1020,6 +1058,15 @@ function showCreditDetails(elementId: string) {
 }
 </script>
 <style lang="css" scoped>
+.text-cards-description {
+  color: var(--color-primario);
+}
+
+.btn-cards {
+  background-color: var(--color-primario);
+  color: white;
+}
+
 .ahorros--container[_ngcontent-ng-c1301576405] .card-container[_ngcontent-ng-c1301576405] {
   padding: 40px 0;
   gap: 0px 80px;
@@ -1080,7 +1127,7 @@ function showCreditDetails(elementId: string) {
 }
 
 .ahorros--container[_ngcontent-ng-c1301576405] .adulto[_ngcontent-ng-c1301576405] {
-  background-image: url("/src/assets/media/aadulto-2-1201x650-PND5MT5A.webp");
+  background-image: url("/src/assets/media/ahorro_ adulto_300x.webp");
 }
 
 .ahorros--container[_ngcontent-ng-c1301576405] .menores[_ngcontent-ng-c1301576405] {
