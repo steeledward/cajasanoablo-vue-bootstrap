@@ -1058,6 +1058,14 @@ function showDetails(elementId: string) {
 }
 </script>
 <style lang="css" scoped>
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.15);
+}
+
 .text-cards-description {
   color: var(--color-primario);
 }
