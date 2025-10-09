@@ -3,7 +3,8 @@
     <div title="CRÉDITOS" colortext="text-black" img="creditos" alt="Hombre sonriente con fondo gris"
       _nghost-ng-c3982346130="" ngh="0">
       <header _ngcontent-ng-c3982346130="">
-        <img _ngcontent-ng-c3982346130="" src="/src/assets/credito_fondo_liso.webp" alt="Hombre sonriente con fondo gris">
+        <img _ngcontent-ng-c3982346130="" src="/src/assets/credito_fondo_liso.webp"
+          alt="Hombre sonriente con fondo gris">
         <div _ngcontent-ng-c3982346130="" class="title-block">
           <h1 _ngcontent-ng-c3982346130="" class="text-black">CRÉDITOS</h1>
           <div _ngcontent-ng-c3982346130="" _nghost-ng-c472793725="" ngh="0">
@@ -69,8 +70,10 @@
     </div>
     <section class="credito-contaner">
       <div class="alert alert-light" role="info" style="font-size: large;">
-        <strong>AVISO IMPORTANTE:</strong> Todos los productos de crédito están sujetos a aprobación conforme a las políticas internas y requisitos vigentes. Consulta términos y condiciones en tu sucursal. La Cooperativa se reserva el derecho de solicitar la comprobación del destino del crédito en los casos que así lo determine.
-        </div>
+        <strong>AVISO IMPORTANTE:</strong> Todos los productos de crédito están sujetos a aprobación conforme a las
+        políticas internas y requisitos vigentes. Consulta términos y condiciones en tu sucursal. La Cooperativa se
+        reserva el derecho de solicitar la comprobación del destino del crédito en los casos que así lo determine.
+      </div>
       <div class="credito-tipe">CONSUMO</div>
       <div class="card-container row justify-content-center">
         <div class="col-md-3 card-credito">
@@ -78,7 +81,7 @@
           <h2 class="card-credito-title">
             CRÉDITO AUTOMÁTICO
           </h2>
-          <div class="card-credito-btn" @:click="showCreditDetails('creditAutomatic')">
+          <div class="card-credito-btn" @:click="showDetails('creditAutomatic', 'creditAutomaticBtn')" id="creditAutomaticBtn">
             Leer más
           </div>
         </div>
@@ -290,7 +293,7 @@
           <h2 class="card-credito-title">
             CREDILOMIO
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditLomio')">
+          <div class="card-credito-btn" @click="showDetails('creditLomio', 'creditLomioId')" id="creditLomioId">
             Leer más
           </div>
         </div>
@@ -502,7 +505,7 @@
           <h2 class="card-credito-title">
             MI PRIMER CRÉDITO
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditFirst')">
+          <div class="card-credito-btn" @click="showDetails('creditFirst', 'creditFirstId')" id="creditFirstId">
             Leer más
           </div>
         </div>
@@ -727,7 +730,7 @@
           <h2 class="card-credito-title">
             CRÉDITO CREDI GODÍN
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditGodin')">
+          <div class="card-credito-btn" @click="showDetails('creditGodin', 'creditGodinId')" id="creditGodinId">
             Leer más
           </div>
         </div>
@@ -958,7 +961,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO ORDINARIO
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditOrdinary')">
+          <div class="card-credito-btn" @click="showDetails('creditOrdinary', 'creditOrdinaryId')" id="creditOrdinaryId">
             Leer más
           </div>
         </div>
@@ -1190,7 +1193,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO CREDILEAL
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditLeal')">
+          <div class="card-credito-btn" @click="showDetails('creditLeal', 'creditLealId')" id="creditLealId">
             Leer más
           </div>
         </div>
@@ -1434,7 +1437,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO AUTOMÓVIL
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditVehicle')">
+          <div class="card-credito-btn" @click="showDetails('creditVehicle', 'creditVehicleId')" id="creditVehicleId">
             Leer más
           </div>
         </div>
@@ -1674,7 +1677,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO ORDINARIO HIPOTECARIO
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditOrdinayHipo')">
+          <div class="card-credito-btn" @click="showDetails('creditOrdinayHipo', 'creditOrdinayHipoId')" id="creditOrdinayHipoId">
             Leer más
           </div>
         </div>
@@ -1917,7 +1920,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO PRESTA-MÓVIL
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditPrestaMovil')">
+          <div class="card-credito-btn" @click="showDetails('creditPrestaMovil', 'creditPrestaMovilId')" id="creditPrestaMovilId">
             Leer más
           </div>
         </div>
@@ -2156,7 +2159,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO COMERCIAL AVÍO
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditComertialAvio')">
+          <div class="card-credito-btn" @click="showDetails('creditComertialAvio', 'creditComertialAvioId')" id="creditComertialAvioId">
             Leer más
           </div>
         </div>
@@ -2401,7 +2404,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO COMERCIAL REFACCIONARIO
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditComertialRefacc')">
+          <div class="card-credito-btn" @click="showDetails('creditComertialRefacc', 'creditComertialRefaccId')" id="creditComertialRefaccId">
             Leer más
           </div>
         </div>
@@ -2642,7 +2645,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO COMERCIAL REFACCIONARIO HIPOTECARIO
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('creditComertialRefaccHipo')">
+          <div class="card-credito-btn" @click="showDetails('creditComertialRefaccHipo', 'creditComertialRefaccHipoId')" id="creditComertialRefaccHipoId">
             Leer más
           </div>
         </div>
@@ -2896,7 +2899,7 @@
           <h2 class="card-credito-title">
             PRÉSTAMO VIVIENDA
           </h2>
-          <div class="card-credito-btn" @click="showCreditDetails('prestamoVivienda')">
+          <div class="card-credito-btn" @click="showDetails('prestamoVivienda', 'prestamoViviendaId')" id="prestamoViviendaId">
             Leer más
           </div>
         </div>
@@ -3134,11 +3137,14 @@
   </main>
 </template>
 <script setup lang="ts">
-function showCreditDetails(elementId: string) {
-  const element = document.getElementById(elementId);
-  if (element) { // Check if the element exists
-    element.style.display = element.style.display == "block" ? "none" : "block";
-    // buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
+function showDetails(elementId: string, buttonElementId: string) {
+  const element = document.getElementById(elementId)
+  const buttonElement = document.getElementById(buttonElementId)
+
+  if (element && buttonElement) {
+    // Check if the element exists
+    element.style.display = element.style.display == 'block' ? 'none' : 'block'
+    buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
   }
 }
 </script>
@@ -3147,6 +3153,7 @@ function showCreditDetails(elementId: string) {
   font-size: large;
   font-weight: bold;
 }
+
 .back-black {
   background-color: var(--color-gris);
 }
@@ -3175,10 +3182,10 @@ function showCreditDetails(elementId: string) {
   padding-bottom: 6.25rem;
 }
 
-.credito-contaner .card-container .card-credito .card-credito-img {
-  background-size: cover;
-  width: 220px;
-  height: 220px;
+.credito-contaner .card-container .card-credito img {
+    text-align: center;
+    cursor: pointer;
+    max-width: 300px;
 }
 
 .credito-contaner .card-container .card-credito .card-credito-title {
