@@ -7,7 +7,7 @@
           <img _ngcontent-ng-c3982346130 src="/src/assets/cuentas_deposito_resized.webp"
             alt="familia-mexicana-sonriente-tiro-medio" />
           <div _ngcontent-ng-c3982346130 class="title-block">
-            <h1 _ngcontent-ng-c3982346130 class="text-white">
+            <h1 _ngcontent-ng-c3982346130 class="text-black">
               CUENTAS DE DEPÓSITO
             </h1>
             <app-redes-sociales _ngcontent-ng-c3982346130 _nghost-ng-c472793725 ngh="0">
@@ -66,7 +66,7 @@
         </header>
       </portada-component>
 
-      <div class="container mb-3 mt-5">
+      <div class="container mb-3" style="margin-top: -200px;">
         <div class="row row-cols-1 row-cols-lg-4 g-4">
           <div class="col">
             <div class="card h-100 shadow-lg">
@@ -1153,10 +1153,11 @@ function showDetails(elementId: string) {
 header[_ngcontent-ng-c3982346130] {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
 }
 
 header[_ngcontent-ng-c3982346130] img[_ngcontent-ng-c3982346130] {
+  margin-top: -200px;
   height: 100%;
   width: 100%;
   object-fit: cover;
