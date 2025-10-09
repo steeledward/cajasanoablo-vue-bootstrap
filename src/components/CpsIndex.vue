@@ -7,12 +7,14 @@ const weAreStyle = {
   backgroundPosition: 'center',
 }
 
-function showDetails(elementId: string) {
+function showDetails(elementId: string, buttonElementId: string) {
   const element = document.getElementById(elementId)
-  if (element) {
+  const buttonElement = document.getElementById(buttonElementId)
+
+  if (element && buttonElement) {
     // Check if the element exists
     element.style.display = element.style.display == 'block' ? 'none' : 'block'
-    // buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
+    buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
   }
 }
 
@@ -397,7 +399,7 @@ function loadUrl(urlString: string) {
                 <div class="titulofb text-center fs-1 my-4 text-center">
                   Preguntas Frecuentes
                 </div>
-                <div id="pregfrecbtn" class="nov-event-boton" @click="showDetails('pregfrec')">
+                <div id="pregfrecbtn" class="nov-event-boton" @click="showDetails('pregfrec', 'pregfrecbtn')">
                   Ver más
                 </div>
                 <div id="pregfrec" class="container" style="display: none">
