@@ -76,12 +76,13 @@
       </div>
       <div class="credito-tipe">CONSUMO</div>
       <div class="card-container row justify-content-center">
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/automatico.png" />
           <h2 class="card-credito-title">
             CRÉDITO AUTOMÁTICO
           </h2>
-          <div class="card-credito-btn" @:click="showDetails('creditAutomatic', 'creditAutomaticBtn')" id="creditAutomaticBtn">
+          <div class="card-credito-btn" @:click="showDetails('creditAutomatic', 'creditAutomaticBtn')"
+            id="creditAutomaticBtn">
             Leer más
           </div>
         </div>
@@ -288,7 +289,7 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/credilomio.png" />
           <h2 class="card-credito-title">
             CREDILOMIO
@@ -500,7 +501,7 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/mi_primer_credito.png" />
           <h2 class="card-credito-title">
             MI PRIMER CRÉDITO
@@ -725,7 +726,7 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/credigodin.png" />
           <h2 class="card-credito-title">
             CRÉDITO CREDI GODÍN
@@ -956,12 +957,13 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" width="220px" src="/src/assets/icon/credits/ordinario.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO ORDINARIO
           </h2>
-          <div class="card-credito-btn" @click="showDetails('creditOrdinary', 'creditOrdinaryId')" id="creditOrdinaryId">
+          <div class="card-credito-btn" @click="showDetails('creditOrdinary', 'creditOrdinaryId')"
+            id="creditOrdinaryId">
             Leer más
           </div>
         </div>
@@ -1188,7 +1190,7 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/credileal.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO CREDILEAL
@@ -1432,7 +1434,7 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/automovil.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO AUTOMÓVIL
@@ -1672,12 +1674,13 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/ordinario_hipotecario.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO ORDINARIO HIPOTECARIO
           </h2>
-          <div class="card-credito-btn" @click="showDetails('creditOrdinayHipo', 'creditOrdinayHipoId')" id="creditOrdinayHipoId">
+          <div class="card-credito-btn" @click="showDetails('creditOrdinayHipo', 'creditOrdinayHipoId')"
+            id="creditOrdinayHipoId">
             Leer más
           </div>
         </div>
@@ -1915,12 +1918,13 @@
     <section class="credito-contaner back-black">
       <div class="credito-tipe">COMERCIAL</div>
       <div class="card-container row justify-content-center">
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/prestamovil.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO PRESTA-MÓVIL
           </h2>
-          <div class="card-credito-btn" @click="showDetails('creditPrestaMovil', 'creditPrestaMovilId')" id="creditPrestaMovilId">
+          <div class="card-credito-btn" @click="showDetails('creditPrestaMovil', 'creditPrestaMovilId')"
+            id="creditPrestaMovilId">
             Leer más
           </div>
         </div>
@@ -2154,12 +2158,13 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/comercial_avio.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO COMERCIAL AVÍO
           </h2>
-          <div class="card-credito-btn" @click="showDetails('creditComertialAvio', 'creditComertialAvioId')" id="creditComertialAvioId">
+          <div class="card-credito-btn" @click="showDetails('creditComertialAvio', 'creditComertialAvioId')"
+            id="creditComertialAvioId">
             Leer más
           </div>
         </div>
@@ -2399,12 +2404,13 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/comercial_refaccionario.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO COMERCIAL REFACCIONARIO
           </h2>
-          <div class="card-credito-btn" @click="showDetails('creditComertialRefacc', 'creditComertialRefaccId')" id="creditComertialRefaccId">
+          <div class="card-credito-btn" @click="showDetails('creditComertialRefacc', 'creditComertialRefaccId')"
+            id="creditComertialRefaccId">
             Leer más
           </div>
         </div>
@@ -2640,12 +2646,13 @@
           </div>
         </div>
         <!---->
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/refaccionario_hipotecario.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO COMERCIAL REFACCIONARIO HIPOTECARIO
           </h2>
-          <div class="card-credito-btn" @click="showDetails('creditComertialRefaccHipo', 'creditComertialRefaccHipoId')" id="creditComertialRefaccHipoId">
+          <div class="card-credito-btn" @click="showDetails('creditComertialRefaccHipo', 'creditComertialRefaccHipoId')"
+            id="creditComertialRefaccHipoId">
             Leer más
           </div>
         </div>
@@ -2894,12 +2901,13 @@
     <section class="credito-contaner">
       <div class="credito-tipe">VIVIENDA</div>
       <div class="card-container row justify-content-center">
-        <div class="col-md-3 card-credito">
+        <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/vivienda.png" />
           <h2 class="card-credito-title">
             PRÉSTAMO VIVIENDA
           </h2>
-          <div class="card-credito-btn" @click="showDetails('prestamoVivienda', 'prestamoViviendaId')" id="prestamoViviendaId">
+          <div class="card-credito-btn" @click="showDetails('prestamoVivienda', 'prestamoViviendaId')"
+            id="prestamoViviendaId">
             Leer más
           </div>
         </div>
@@ -3149,6 +3157,13 @@ function showDetails(elementId: string, buttonElementId: string) {
 }
 </script>
 <style lang="css" scoped>
+.card-credito {
+  padding: 40px 20px 10px 20px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background-color: #e9ecef;
+}
+
 .cat-gat {
   font-size: large;
   font-weight: bold;
@@ -3178,14 +3193,13 @@ function showDetails(elementId: string, buttonElementId: string) {
 
 .credito-contaner .card-container .card-credito {
   text-align: center;
-  cursor: pointer;
   padding-bottom: 6.25rem;
 }
 
 .credito-contaner .card-container .card-credito img {
-    text-align: center;
-    cursor: pointer;
-    max-width: 300px;
+  text-align: center;
+  width: 100%;
+  /* max-width: 300px; */
 }
 
 .credito-contaner .card-container .card-credito .card-credito-title {
@@ -3209,6 +3223,7 @@ function showDetails(elementId: string, buttonElementId: string) {
   align-items: center;
   margin: 0 auto;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 
 .credito-contaner .card-container .card-credito-info {
@@ -3265,20 +3280,20 @@ function showDetails(elementId: string, buttonElementId: string) {
   color: var(--color-azul-oscuro);
 }
 
-header[_ngcontent-ng-c3982346130] {
+header {
   position: relative;
   width: 100%;
   height: 70vh;
 }
 
-header[_ngcontent-ng-c3982346130] img[_ngcontent-ng-c3982346130] {
+header img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: top;
 }
 
-header[_ngcontent-ng-c3982346130] .title-block[_ngcontent-ng-c3982346130] {
+header .title-block {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3287,20 +3302,20 @@ header[_ngcontent-ng-c3982346130] .title-block[_ngcontent-ng-c3982346130] {
   text-align: center;
 }
 
-header[_ngcontent-ng-c3982346130] .title-block[_ngcontent-ng-c3982346130] h1[_ngcontent-ng-c3982346130] {
+header .title-block h1 {
   font-size: 3rem;
   text-shadow: 0 0 10px white;
   animation: zoomIn 1s ease-in-out;
 }
 
-.redes-sociales[_ngcontent-ng-c472793725] {
+.redes-sociales {
   display: flex;
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap;
 }
 
-.redes-sociales[_ngcontent-ng-c472793725] a[_ngcontent-ng-c472793725] {
+.redes-sociales a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3315,16 +3330,16 @@ header[_ngcontent-ng-c3982346130] .title-block[_ngcontent-ng-c3982346130] h1[_ng
   transition: 0.55s;
 }
 
-.redes-sociales[_ngcontent-ng-c472793725] a[_ngcontent-ng-c472793725]:hover {
+.redes-sociales a:hover {
   background-color: #fff;
   fill: #000;
 }
 
-.redes-sociales[_ngcontent-ng-c472793725] a[_ngcontent-ng-c472793725] svg[_ngcontent-ng-c472793725] {
+.redes-sociales a svg {
   width: 30px;
 }
 
-.contactanos[_ngcontent-ng-c472793725] {
+.contactanos {
   font-size: 2rem;
   color: #fff;
   text-shadow: 1px 1px 20px black;
@@ -3333,7 +3348,7 @@ header[_ngcontent-ng-c3982346130] .title-block[_ngcontent-ng-c3982346130] h1[_ng
   overflow: hidden;
 }
 
-.contactanos[_ngcontent-ng-c472793725] p[_ngcontent-ng-c472793725] {
+.contactanos p {
   animation: fadeInRight;
   animation-duration: 1.5s;
 }
