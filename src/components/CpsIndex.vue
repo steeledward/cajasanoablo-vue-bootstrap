@@ -26,7 +26,6 @@ function loadUrl(urlString: string) {
 <template>
   <main>
     <div class="container mb-3">
-      <app-gallery _ngcontent-ng-c1538472975="" _nghost-ng-c3334962614="">
         <div _ngcontent-ng-c3334962614="" class="gallery">
           <div _ngcontent-ng-c3334962614="" id="carouselExampleControls" data-bs-ride="carousel"
             class="carousel slide carousel-fade">
@@ -132,7 +131,6 @@ function loadUrl(urlString: string) {
             </div>
           </div>
         </div>
-      </app-gallery>
     </div>
     <div class="container mb-3 mt-5">
       <div class="row row-cols-1 row-cols-lg-4 g-4">
@@ -391,7 +389,6 @@ function loadUrl(urlString: string) {
     <div _ngcontent-ng-c1538472975="" class="container">
       <div _ngcontent-ng-c1538472975="" class="row py-5">
         <div _ngcontent-ng-c1538472975="" class="col-12 col-lg-6 d-flex flex-column justify-content-center">
-          <preguntas-frecuentes-component _ngcontent-ng-c1538472975="" _nghost-ng-c3795751133="">
             <section class="preg-frec py-5 py-lg-0">
               <div class="container text-center">
                 <img loading="lazy" width="200px" height="200px" src="/src/assets/icon/informacion.webp"
@@ -788,12 +785,9 @@ function loadUrl(urlString: string) {
                 </div>
               </div>
             </section>
-          </preguntas-frecuentes-component>
         </div>
         <hr _ngcontent-ng-c1538472975="" class="d-block d-lg-none m" style="width: 90%; margin: 0 auto" />
         <div _ngcontent-ng-c1538472975="" class="col-12 col-lg-6 d-flex flex-column align-items-center">
-          <buzon-component-inicio _ngcontent-ng-c1538472975="" class="position-sticky" style="top: 85px"
-            _nghost-ng-c1260654904="">
             <section _ngcontent-ng-c1260654904="" class="buzon mb-5 py-5 py-lg-0">
               <div _ngcontent-ng-c1260654904="" class="container text-center">
                 <img _ngcontent-ng-c1260654904="" width="200px" height="200px" loading="lazy"
@@ -811,7 +805,6 @@ function loadUrl(urlString: string) {
                 </a>
               </div>
             </section>
-          </buzon-component-inicio>
         </div>
       </div>
     </div>
