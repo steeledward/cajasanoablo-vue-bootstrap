@@ -62,75 +62,130 @@
         </div>
       </div>
     </header>
-    <section class="container">
-      <p class="revistas-subtitle text-center my-5">Conoce lo nuevo que tiene <span
-          style="color: var(--color-primario);">Caja Popular San Pablo</span></p>
-      <div class="row gap-5 justify-content-around mb-5">
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Octubre_2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_oct_2025.webp" />
-          <div class="card-title my-4 text-center">Octubre 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Septiembre_2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_septiembre_2025.webp" />
-          <div class="card-title my-4 text-center">Septiembre 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Agosto_2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_agosto_2025.webp" />
-          <div class="card-title my-4 text-center">Agosto 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Julio_2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_julio_2025.webp" />
-          <div class="card-title my-4 text-center">Julio 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Junio_2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_dia_padre_2025.webp" />
-          <div class="card-title my-4 text-center">Junio 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Mayo_2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV_Mayo_2025.webp" />
-          <div class="card-title my-4 text-center">Mayo 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Abril_2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Abril 2025.webp" />
-          <div class="card-title my-4 text-center">Abril 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV-Marzo-2025 (1).pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Marzo 2025.webp" />
-          <div class="card-title my-4 text-center">Marzo 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV-Febrero-2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Febrero 2025.webp" />
-          <div class="card-title my-4 text-center">Febrero 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
-        <!---->
-        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV Enero 2025.pdf">
-          <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Enero 2025.webp" />
-          <div class="card-title my-4 text-center">Enero 2025</div>
-          <div class="btn-leer-mas text-center">Leer más</div>
-        </a>
+    <div id="app" class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <h1 class="text-center mb-4">Conoce lo nuevo que tiene <span style="color: var(--color-primario);">Caja
+              Popular San Pablo</span></h1>
+          <!-- Tabs Component -->
+          <div class="custom-tabs">
+          </div>
+        </div>
       </div>
-    </section>
+      <!-- Tab Headers -->
+      <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="magazine-2025-tab" data-bs-toggle="tab" data-bs-target="#magazine-2025" type="button"
+            role="tab" aria-controls="magazine-2025" aria-selected="true">
+            <i class="mdi mdi-magazine-2025 tab-icon"></i> 2025
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="magazine-2024-tab" data-bs-toggle="tab" data-bs-target="#magazine-2024" type="button"
+            role="tab" aria-controls="magazine-2024" aria-selected="false">
+            <i class="mdi mdi-account tab-icon"></i> 2024
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="magazine-2023-tab" data-bs-toggle="tab" data-bs-target="#magazine-2023" type="button"
+            role="tab" aria-controls="magazine-2023" aria-selected="false">
+            <i class="mdi mdi-email tab-icon"></i> 2023
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="magazine-2022-tab" data-bs-toggle="tab" data-bs-target="#magazine-2022" type="button"
+            role="tab" aria-controls="magazine-2022" aria-selected="false">
+            <i class="mdi mdi-email tab-icon"></i> 2022
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="magazine-2021-tab" data-bs-toggle="tab" data-bs-target="#magazine-2021" type="button"
+            role="tab" aria-controls="magazine-2021" aria-selected="false">
+            <i class="mdi mdi-email tab-icon"></i> 2021
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="myTabContent">
+        <!-- 20225 Tab -->
+        <div class="tab-pane fade show active mt-5" id="magazine-2025" role="tabpanel" aria-labelledby="magazine-2025-tab">
+          <Revistas2025 />
+        </div>
+
+        <!-- 2024 Tab -->
+        <div class="tab-pane fade" id="magazine-2024" role="tabpanel" aria-labelledby="magazine-2024-tab">
+          <Revistas2024 />
+        </div>
+
+        <!-- 2023 Tab -->
+        <div class="tab-pane fade" id="magazine-2023" role="tabpanel" aria-labelledby="magazine-2023-tab">
+          <Revistas2023 />
+        </div>
+
+        <!-- 2022 Tab -->
+        <div class="tab-pane fade" id="magazine-2022" role="tabpanel" aria-labelledby="magazine-2022-tab">
+          <Revistas2022 />
+        </div>
+
+        <!-- 2021 Tab -->
+        <div class="tab-pane fade" id="magazine-2021" role="tabpanel" aria-labelledby="magazine-2021-tab">
+          <Revistas2021 />
+        </div>
+
+      </div>
+    </div>
   </main>
 </template>
+<script setup lang="ts">
+import Revistas2025 from './CpsRevistas2025.vue'
+import Revistas2024 from './CpsRevistas2024.vue'
+import Revistas2023 from './CpsRevistas2023.vue'
+import Revistas2022 from './CpsRevistas2022.vue'
+import Revistas2021 from './CpsRevistas2021.vue'
+</script>
 <style lang="css" scoped>
+button {
+  font-size: xx-large;
+}
+
+.custom-tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content {
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.tab-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
 .boxed {
   transition: all 0.3s;
 }
