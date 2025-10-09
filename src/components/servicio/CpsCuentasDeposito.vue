@@ -66,7 +66,7 @@
         </header>
       </portada-component>
 
-      <div class="container mb-3" style="margin-top: -200px;">
+      <div class="container mb-3" style="margin-top: -100px;">
         <div class="row row-cols-1 row-cols-lg-4 g-4">
           <div class="col">
             <div class="card h-100 shadow-lg">
@@ -1157,7 +1157,6 @@ header[_ngcontent-ng-c3982346130] {
 }
 
 header[_ngcontent-ng-c3982346130] img[_ngcontent-ng-c3982346130] {
-  margin-top: -200px;
   height: 100%;
   width: 100%;
   object-fit: cover;
