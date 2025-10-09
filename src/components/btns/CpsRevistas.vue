@@ -67,61 +67,61 @@
           style="color: var(--color-primario);">Caja Popular San Pablo</span></p>
       <div class="row gap-5 justify-content-around mb-5">
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Octubre_2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Octubre_2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_oct_2025.webp" />
           <div class="card-title my-4 text-center">Octubre 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Septiembre_2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Septiembre_2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_septiembre_2025.webp" />
           <div class="card-title my-4 text-center">Septiembre 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Agosto_2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Agosto_2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_agosto_2025.webp" />
           <div class="card-title my-4 text-center">Agosto 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Julio_2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Julio_2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_julio_2025.webp" />
           <div class="card-title my-4 text-center">Julio 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Junio_2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Junio_2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/revista_dia_padre_2025.webp" />
           <div class="card-title my-4 text-center">Junio 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Mayo_2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Mayo_2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV_Mayo_2025.webp" />
           <div class="card-title my-4 text-center">Mayo 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV_Abril_2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV_Abril_2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Abril 2025.webp" />
           <div class="card-title my-4 text-center">Abril 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV-Marzo-2025 (1).pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV-Marzo-2025 (1).pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Marzo 2025.webp" />
           <div class="card-title my-4 text-center">Marzo 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV-Febrero-2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV-Febrero-2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Febrero 2025.webp" />
           <div class="card-title my-4 text-center">Febrero 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
         </a>
         <!---->
-        <a target="_blank" class="card-revista col-3 p-0" href="/assets/pdf/REV Enero 2025.pdf">
+        <a target="_blank" class="card-revista boxed col-3 p-0" href="/assets/pdf/REV Enero 2025.pdf">
           <img alt="Revistas 2024" class="card-img" src="/src/assets/img-revistas/REV Enero 2025.webp" />
           <div class="card-title my-4 text-center">Enero 2025</div>
           <div class="btn-leer-mas text-center">Leer más</div>
@@ -131,6 +131,14 @@
   </main>
 </template>
 <style lang="css" scoped>
+.boxed {
+  transition: all 0.3s;
+}
+
+.boxed:hover {
+  transform: scale(1.15);
+}
+
 a {
   text-decoration: none;
 }
