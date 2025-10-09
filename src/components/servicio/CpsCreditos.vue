@@ -3145,14 +3145,35 @@
   </main>
 </template>
 <script setup lang="ts">
+function hideAllExceptOne(className: string, elementToKeepId: string) {
+  const elements = document.querySelectorAll(`.${className}`);
+  const elementToKeep = document.getElementById(elementToKeepId)?.parentElement
+  elements.forEach(element => {
+    if (element !== elementToKeep) {
+      (element as HTMLElement).style.display = 'none';
+    }
+  });
+}
+function showAllExcept(className: string) {
+  const elements = document.querySelectorAll(`.${className}`);
+  elements.forEach(element => {
+    (element as HTMLElement).style.display = 'block';
+  });
+}
 function showDetails(elementId: string, buttonElementId: string) {
   const element = document.getElementById(elementId)
   const buttonElement = document.getElementById(buttonElementId)
 
   if (element && buttonElement) {
-    // Check if the element exists
-    element.style.display = element.style.display == 'block' ? 'none' : 'block'
-    buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
+    if (element.style.display == 'none') {
+      hideAllExceptOne('card-credito', buttonElementId);
+      element.style.display = 'block'
+      buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
+    } else {
+      showAllExcept('card-credito');
+      element.style.display = 'none'
+      buttonElement.innerHTML = element.style.display == "block" ? "Ocultar" : "Leer más";
+    }
   }
 }
 </script>
