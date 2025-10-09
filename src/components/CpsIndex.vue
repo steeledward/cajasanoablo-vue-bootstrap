@@ -378,6 +378,10 @@ function loadUrl(urlString: string) {
   </main>
 </template>
 <style scoped>
+a {
+  text-decoration: none;
+}
+
 .boxed {
   transition: all 0.3s;
 }
