@@ -59,243 +59,204 @@
         </app-redes-sociales>
       </div>
     </header>
-    <section _ngcontent-ng-c2365270893 class="grid">
-      <div _ngcontent-ng-c2365270893 class="container">
-        <div _ngcontent-ng-c2365270893 class="row gap-3 justify-content-evenly">
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/hotel_sierra_tigre_mazamitla.png"
-                alt="Hotel Sierra Tigre Mazamitla" />
+    <section class="grid">
+      <div class="container">
+        <div class="row gap-3 justify-content-evenly">
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/hotel_sierra_tigre_mazamitla.png" alt="Hotel Sierra Tigre Mazamitla" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>Hotel Sierra Tigre Mazamitla</h2>
-            <span _ngcontent-ng-c2365270893>Descuento: 10% de descuento</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893 href="https://www.facebook.com/SIERRATIGREHOTEL"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/hotelsierratigre/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png" /></a><a _ngcontent-ng-c2365270893 href="33 2493 5912"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a>
-              <a _ngcontent-ng-c2365270893 target="_blank"
+            <h2>Hotel Sierra Tigre Mazamitla</h2>
+            <span>Descuento: 10% de descuento</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/SIERRATIGREHOTEL"><img src="/src/assets/icon/facebook.png" /></a><a
+                href="https://www.instagram.com/hotelsierratigre/"><img src="/src/assets/icon/instagram.png" /></a><a
+                href="33 2493 5912"><img src="/src/assets/icon/telefono.png" /></a>
+              <a target="_blank"
                 href="https://hotelsierratigre.com/reservar?gad_source=1&gad_campaignid=18198284093&gbraid=0AAAAAofPBTH759JBQ8YzA017B0Bcc1hwD&gclid=CjwKCAjw89jGBhB0EiwA2o1On7vvwLg0iNRpinNS3r8sWbKHxwOLLXqWdydY2yF_hl9IGgxb9_ySJxoCjYcQAvD_BwE"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/sitio-web.png" /></a>
+                  src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/HOTEL_SIERRA_TIGRE_MAZAMITLA.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/HOTEL_SIERRA_TIGRE_MAZAMITLA.pdf">
+              <button>Leer más</button>
+            </a>
+
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/Clase y estilo.webp" alt="Clase y estilo" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/Clase y estilo.webp" alt="Clase y estilo" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>Escuela de Perosnalidad y Belleza (Clase y Estilo)</h2>
-            <span _ngcontent-ng-c2365270893>Descuento: 10% de descuento</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893 href="https://www.facebook.com/claseyestilomx/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/escuelaclaseyestilo/?hl=es"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png" /></a><a _ngcontent-ng-c2365270893 href="33 2208 0114"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a>
+            <h2>Escuela de Perosnalidad y Belleza (Clase y Estilo)</h2>
+            <span>Descuento: 10% de descuento</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/claseyestilomx/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a
+                href="https://www.instagram.com/escuelaclaseyestilo/?hl=es"><img
+                  src="/src/assets/icon/instagram.png" /></a><a href="33 2208 0114"><img
+                  src="/src/assets/icon/telefono.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/Clase y Estilo.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/Clase y Estilo.pdf"><button>Leer más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/san juan cosala.webp" alt="san juan cosala" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/san juan cosala.webp" alt="san juan cosala" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>Hotel Balneario San Juan Cosala</h2>
-            <span _ngcontent-ng-c2365270893>LUNES A SABADO- ADULTO $340/ NIÑOS MENORES A 130CM DE ALTURA $170.00 (MAXIMO
+            <h2>Hotel Balneario San Juan Cosala</h2>
+            <span>LUNES A SABADO- ADULTO $340/ NIÑOS MENORES A 130CM DE ALTURA $170.00 (MAXIMO
               5
               PERSONAS POR SOCIO O COLABORADOR)</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/Hotel.Balneario.SanJuan.Cosala/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a
                 href="https://www.facebook.com/Hotel.Balneario.SanJuan.Cosala/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
+                  src="/src/assets/icon/instagram.png" /></a><a
                 href="https://www.facebook.com/Hotel.Balneario.SanJuan.Cosala/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/instagram.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/Hotel.Balneario.SanJuan.Cosala/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/tik-tok.png" /></a><a _ngcontent-ng-c2365270893
-                href="33 1599 3781"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a
-                _ngcontent-ng-c2365270893 target="_blank" href="https://www.hotelspacosala.com/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png" /></a>
+                  src="/src/assets/icon/tik-tok.png" /></a><a href="33 1599 3781"><img
+                  src="/src/assets/icon/telefono.png" /></a><a target="_blank"
+                href="https://www.hotelspacosala.com/"><img src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/SAN JUAN COSALA.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/SAN JUAN COSALA.pdf"><button>Leer más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/Consultorio Dental Rey Quintil Guadalajara.webp"
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/Consultorio Dental Rey Quintil Guadalajara.webp"
                 alt="Consultorio Dental Rey Quintil Guadalajara" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>Consultorio Dental Rey Quintil Guadalajara</h2>
-            <span _ngcontent-ng-c2365270893>25% de descuento a Socios. • 30% de descuento a colaboradores de la
+            <h2>Consultorio Dental Rey Quintil Guadalajara</h2>
+            <span>25% de descuento a Socios. • 30% de descuento a colaboradores de la
               Cooperativa.</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893 href="https://www.facebook.com/ConsultorioQuintil/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/reyquintil/?hl=es"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png" /></a><a _ngcontent-ng-c2365270893
-                href="consultorio_quintil@hotmail.com"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 4052 3305"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://consultorio-dental-rey-quintil.my.canva.site/" target="_blank"><img _ngcontent-ng-c2365270893
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/ConsultorioQuintil/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a href="https://www.instagram.com/reyquintil/?hl=es"><img
+                  src="/src/assets/icon/instagram.png" /></a><a href="consultorio_quintil@hotmail.com"><img
+                  src="/src/assets/icon/email.png" /></a><a href="33 4052 3305"><img
+                  src="/src/assets/icon/telefono.png" /></a><a
+                href="https://consultorio-dental-rey-quintil.my.canva.site/" target="_blank"><img
                   src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank"
-              href="/assets/pdf/CONSULTORIO_REY_QUINTILL_PGINA_WEB.pdf"><button _ngcontent-ng-c2365270893>Leer
+            <a target="_blank" href="/assets/pdf/CONSULTORIO_REY_QUINTILL_PGINA_WEB.pdf"><button>Leer
                 más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/CEO (Centro de Estudios Profecionales).webp"
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/CEO (Centro de Estudios Profecionales).webp"
                 alt="CEO (Centro de Estudios Profecionales)" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>CEP (Centro de Estudios Profesionales)</h2>
-            <span _ngcontent-ng-c2365270893>Inscripción gratuita y descuento de 25% en colegiaturas</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/p/Cep-Centro-de-Estudios-Profesionales-100063491893674/"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="Jaliscoavanza@hotmail.com"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 1147 1877"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://cepuniversitario.edu.mx/"  target="_blank"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png" /></a>
+            <h2>CEP (Centro de Estudios Profesionales)</h2>
+            <span>Inscripción gratuita y descuento de 25% en colegiaturas</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/p/Cep-Centro-de-Estudios-Profesionales-100063491893674/"><img
+                  src="/src/assets/icon/facebook.png" /></a><a href="Jaliscoavanza@hotmail.com"><img
+                  src="/src/assets/icon/email.png" /></a><a href="33 1147 1877"><img
+                  src="/src/assets/icon/telefono.png" /></a><a href="https://cepuniversitario.edu.mx/"
+                target="_blank"><img src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank"
-              href="/assets/pdf/(CEP) Centro de Estudios Profecionales.pdf"><button _ngcontent-ng-c2365270893>Leer
+            <a target="_blank" href="/assets/pdf/(CEP) Centro de Estudios Profecionales.pdf"><button>Leer
                 más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/CECATI 15.webp" alt="CECATI 15" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/CECATI 15.webp" alt="CECATI 15" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>CECATI 15</h2>
-            <span _ngcontent-ng-c2365270893>Descuento: 50% cursos presenciales de lunes a viernes</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/Cecati15CapacitacionyCursos/?locale=es_LA"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="cecati15.vinc@dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 3618 6043"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="dgcft.sems.gob.mx" target="_blank"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/sitio-web.png" /></a>
-            </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/cecati.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
-          </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/CECATI 16.webp" alt="CECATI 16" />
-            </div>
-            <h2 _ngcontent-ng-c2365270893>CECATI 16</h2>
-            <span _ngcontent-ng-c2365270893>Descuento: 60% cursos presenciales de lunes a viernes</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/p/Cecati-16-100063910751195/?locale=es_LA"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893 href="33 3643 0990"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="cecati15.vinc@dgcft.sems.gob.mx"  target="_blank"><img _ngcontent-ng-c2365270893
+            <h2>CECATI 15</h2>
+            <span>Descuento: 50% cursos presenciales de lunes a viernes</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/Cecati15CapacitacionyCursos/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a href="cecati15.vinc@dgcft.sems.gob.mx"><img
+                  src="/src/assets/icon/email.png" /></a><a href="33 3618 6043"><img
+                  src="/src/assets/icon/telefono.png" /></a><a href="dgcft.sems.gob.mx" target="_blank"><img
                   src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/cecati.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/cecati.pdf"><button>Leer más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/CECATI 161.webp" alt="CECATI 161" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/CECATI 16.webp" alt="CECATI 16" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>CECATI 161</h2>
-            <span _ngcontent-ng-c2365270893>Todos los cursos presenciales de lunes a viernes: 50% (Excepto Salud
+            <h2>CECATI 16</h2>
+            <span>Descuento: 60% cursos presenciales de lunes a viernes</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/p/Cecati-16-100063910751195/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a href="33 3643 0990"><img
+                  src="/src/assets/icon/telefono.png" /></a><a href="cecati15.vinc@dgcft.sems.gob.mx"
+                target="_blank"><img src="/src/assets/icon/sitio-web.png" /></a>
+            </div>
+            <a target="_blank" href="/assets/pdf/cecati.pdf"><button>Leer más</button></a>
+          </div>
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/CECATI 161.webp" alt="CECATI 161" />
+            </div>
+            <h2>CECATI 161</h2>
+            <span>Todos los cursos presenciales de lunes a viernes: 50% (Excepto Salud
               Visual)</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893 href="https://www.facebook.com/cecati161/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="cecati161.vinc@dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 3638 9882"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="cecati15.vinc@dgcft.sems.gob.mx"  target="_blank"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png" /></a>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/cecati161/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a href="cecati161.vinc@dgcft.sems.gob.mx"><img
+                  src="/src/assets/icon/email.png" /></a><a href="33 3638 9882"><img
+                  src="/src/assets/icon/telefono.png" /></a><a href="cecati15.vinc@dgcft.sems.gob.mx"
+                target="_blank"><img src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/cecati.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/cecati.pdf"><button>Leer más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/CECATI 190.webp" alt="CECATI 190" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/CECATI 190.webp" alt="CECATI 190" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>CECATI 190</h2>
-            <span _ngcontent-ng-c2365270893>Descuento: 25% cursos presenciales de lunes a viernes</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/Cecati190CursosYCapacitaciones/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="cecati190.dir@dgcft.sems.gob.mx"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 3608 0264"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="cecati15.vinc@dgcft.sems.gob.mx"  target="_blank"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png" /></a>
+            <h2>CECATI 190</h2>
+            <span>Descuento: 25% cursos presenciales de lunes a viernes</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/Cecati190CursosYCapacitaciones/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a href="cecati190.dir@dgcft.sems.gob.mx"><img
+                  src="/src/assets/icon/email.png" /></a><a href="33 3608 0264"><img
+                  src="/src/assets/icon/telefono.png" /></a><a href="cecati15.vinc@dgcft.sems.gob.mx"
+                target="_blank"><img src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/cecati.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/cecati.pdf"><button>Leer más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/SELVA MAGICA.webp" alt="SELVA MAGICA" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/SELVA MAGICA.webp" alt="SELVA MAGICA" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>SELVA MAGICA</h2>
-            <span _ngcontent-ng-c2365270893>Descuento: Cupones 2x1 en pase platino.</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893 href="https://www.facebook.com/SelvaMagicaOficial/"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/selvamagica/"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.youtube.com/user/SelvaMagicaGDL"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/youtube.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://x.com/selvamagicagdl"><img _ngcontent-ng-c2365270893 src="/src/assets/icon/x.png" /></a><a
-                _ngcontent-ng-c2365270893 href="33 3821 7813"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.selvamagica.com.mx/" target="_blank"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png" /></a>
+            <h2>SELVA MAGICA</h2>
+            <span>Descuento: Cupones 2x1 en pase platino.</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/SelvaMagicaOficial/"><img src="/src/assets/icon/facebook.png" /></a><a
+                href="https://www.instagram.com/selvamagica/"><img src="/src/assets/icon/instagram.png" /></a><a
+                href="https://www.youtube.com/user/SelvaMagicaGDL"><img src="/src/assets/icon/youtube.png" /></a><a
+                href="https://x.com/selvamagicagdl"><img src="/src/assets/icon/x.png" /></a><a href="33 3821 7813"><img
+                  src="/src/assets/icon/telefono.png" /></a><a href="https://www.selvamagica.com.mx/"
+                target="_blank"><img src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/selvaMagica.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/selvaMagica.pdf"><button>Leer más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/distring.webp" alt="distring" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/distring.webp" alt="distring" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>DISTRING</h2>
-            <span _ngcontent-ng-c2365270893>Descuento: 5% para el Socio.</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893 href="https://www.facebook.com/Distring"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="ventas@equipossolares.com"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 2223 6993DASH"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://equipossolares.com/" target="_blank"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/sitio-web.png" /></a>
+            <h2>DISTRING</h2>
+            <span>Descuento: 5% para el Socio.</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/Distring"><img src="/src/assets/icon/facebook.png" /></a><a
+                href="ventas@equipossolares.com"><img src="/src/assets/icon/email.png" /></a><a
+                href="33 2223 6993DASH"><img src="/src/assets/icon/telefono.png" /></a><a
+                href="https://equipossolares.com/" target="_blank"><img src="/src/assets/icon/sitio-web.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/Distring.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/Distring.pdf"><button>Leer más</button></a>
           </div>
-          <div _ngcontent-ng-c2365270893 class="item col-3">
-            <div _ngcontent-ng-c2365270893 class="item-contenido">
-              <img _ngcontent-ng-c2365270893 src="/src/assets/VIAJES ALONDRA.webp" alt="VIAJES ALONDRA" />
+          <div class="item col-3 boxed">
+            <div class="item-contenido">
+              <img src="/src/assets/VIAJES ALONDRA.webp" alt="VIAJES ALONDRA" />
             </div>
-            <h2 _ngcontent-ng-c2365270893>VIAJES ALONDRA</h2>
-            <span _ngcontent-ng-c2365270893>Descuento de 7% al socio</span>
-            <div _ngcontent-ng-c2365270893 class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
-              <a _ngcontent-ng-c2365270893
-                href="https://www.facebook.com/p/Viajes-Alondra-100064162056949/?locale=es_LA"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/facebook.png" /></a><a _ngcontent-ng-c2365270893
-                href="https://www.instagram.com/viajes.alondra"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/instagram.png" /></a><a _ngcontent-ng-c2365270893
-                href="viajesalondra@hotmail.com"><img _ngcontent-ng-c2365270893
-                  src="/src/assets/icon/email.png" /></a><a _ngcontent-ng-c2365270893 href="33 1833 2733"><img
-                  _ngcontent-ng-c2365270893 src="/src/assets/icon/telefono.png" /></a>
+            <h2>VIAJES ALONDRA</h2>
+            <span>Descuento de 7% al socio</span>
+            <div class="d-flex gap-2 p-3" style="width: 100%; list-style: none">
+              <a href="https://www.facebook.com/p/Viajes-Alondra-100064162056949/?locale=es_LA"><img
+                  src="/src/assets/icon/facebook.png" /></a><a href="https://www.instagram.com/viajes.alondra"><img
+                  src="/src/assets/icon/instagram.png" /></a><a href="viajesalondra@hotmail.com"><img
+                  src="/src/assets/icon/email.png" /></a><a href="33 1833 2733"><img
+                  src="/src/assets/icon/telefono.png" /></a>
             </div>
-            <a _ngcontent-ng-c2365270893 target="_blank" href="/assets/pdf/viajes-alondra.pdf"><button
-                _ngcontent-ng-c2365270893>Leer más</button></a>
+            <a target="_blank" href="/assets/pdf/viajes-alondra.pdf"><button>Leer más</button></a>
           </div>
         </div>
       </div>
@@ -303,11 +264,19 @@
   </main>
 </template>
 <style lang="css" scoped>
-.grid[_ngcontent-ng-c2365270893] {
+.boxed {
+  transition: all 0.3s;
+}
+
+.boxed:hover {
+  transform: scale(1.15);
+}
+
+.grid {
   padding: 80px 0;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] {
+.grid .item {
   display: flex;
   padding-bottom: 10px;
   background: #fff;
@@ -318,29 +287,29 @@
   margin-bottom: 20px;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] .item-contenido[_ngcontent-ng-c2365270893] {
+.grid .item .item-contenido {
   position: relative;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] .item-contenido[_ngcontent-ng-c2365270893] img[_ngcontent-ng-c2365270893] {
+.grid .item .item-contenido img {
   width: 100%;
   border-radius: 5px;
   vertical-align: top;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] h2[_ngcontent-ng-c2365270893] {
+.grid .item h2 {
   font-size: 18px;
   margin-top: 20px;
   padding: 0 20px;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] span[_ngcontent-ng-c2365270893] {
+.grid .item span {
   display: block;
   margin-top: 10px;
   padding: 0 20px;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] .ctn-tag[_ngcontent-ng-c2365270893] {
+.grid .item .ctn-tag {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -348,7 +317,7 @@
   margin-top: 10px;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] .ctn-tag[_ngcontent-ng-c2365270893] li[_ngcontent-ng-c2365270893] {
+.grid .item .ctn-tag li {
   list-style: none;
   font-size: 14px;
   margin: 4px;
@@ -357,7 +326,7 @@
   cursor: default;
 }
 
-.grid[_ngcontent-ng-c2365270893] .item[_ngcontent-ng-c2365270893] button[_ngcontent-ng-c2365270893] {
+.grid .item button {
   color: #fff;
   margin-left: 20px;
   padding: 10px 40px;
