@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import backgroundImageWeAre from '@/assets/historia.webp'
 import PreguntasBuzon from './CpsPreguntasBuzon.vue'
+import CpsEventosImage from './CpsEventosImage.vue'
+import CpsEventosGrid from './CpsEventosGrid.vue'
 
 const weAreStyle = {
   backgroundImage: `url(${backgroundImageWeAre})`,
@@ -124,7 +126,7 @@ function loadUrl(urlString: string) {
       <div class="row row-cols-1 row-cols-lg-4 g-4">
         <div class="col">
           <div class="card h-100 shadow-lg">
-              <img src="/src/assets/quieres_ser_socio.webp" class="card-img-top" alt="..." />
+            <img src="/src/assets/quieres_ser_socio.webp" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title text-center">QUIERO SER SOCIO</h5>
               <p class="card-text text-center text-cards-description">
@@ -300,8 +302,8 @@ function loadUrl(urlString: string) {
       </div>
     </section>
     <section class="otros container-fluid">
-      <div class="nov-event">
-        <div class="row align-items-center">
+      <div class="row align-items-center">
+        <div class="col col-sm-12 col-md-12 col-lg-6 mb-5">
           <a class="nov-event-titulo-boton col-md-4 col-xl-5" href="/servicio/nov-event">
             <div class="nov-event-titulo text-center animate__animated animate__backInLeft animate__slow">
               NOVEDADES<br />Y EVENTOS
@@ -311,8 +313,10 @@ function loadUrl(urlString: string) {
                 Conocer más
               </div>
             </div>
-          </a><img loading="lazy" src="/src/assets/jason-goodman-NdZ08c-zu0c-unsplash.webp"
-            alt="Imagen  novedades y eventos" class="col-md-8 col-xl-7 p-0 object-fit-cover" />
+          </a>
+        </div>
+        <div class="col col-sm-12 col-md-12 col-lg-6">
+          <CpsEventosGrid />
         </div>
       </div>
     </section>
