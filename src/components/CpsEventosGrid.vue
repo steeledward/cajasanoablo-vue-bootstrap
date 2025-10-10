@@ -10,22 +10,22 @@
 <script setup lang="ts">
 const gallery = [
   {
-    src: "assets/img-inauguracion-el-salto/salto_1.jpeg"
+    src: "/assets/img-inauguracion-el-salto/salto_1.jpeg"
   },
   {
-    src: "assets/img-nino-2025-event/nino_1.webp"
+    src: "/assets/img-nino-2025-event/nino_1.webp"
   },
   {
-    src: "assets/img-nov-event/191.webp"
+    src: "/assets/img-nov-event/191.webp"
   },
   {
-    src: "assets/img-nov-event/167.webp"
+    src: "/assets/img-nov-event/167.webp"
   },
   {
-    src: "assets/img-nov-event/150.webp"
+    src: "/assets/img-nov-event/150.webp"
   },
   {
-    src: "assets/img-nov-event/140.webp"
+    src: "/assets/img-nov-event/140.webp"
   }
 ]
 </script>
