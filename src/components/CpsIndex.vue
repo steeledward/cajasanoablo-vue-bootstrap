@@ -124,7 +124,7 @@ function loadUrl(urlString: string) {
       <div class="row row-cols-1 row-cols-lg-4 g-4">
         <div class="col">
           <div class="card h-100 shadow-lg">
-            <img src="/src/assets/quieres_ser_socio.webp" class="card-img-top" alt="..." />
+              <img src="/src/assets/quieres_ser_socio.webp" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title text-center">QUIERO SER SOCIO</h5>
               <p class="card-text text-center text-cards-description">
