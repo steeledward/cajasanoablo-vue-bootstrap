@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import matriz from "/src/assets/media/suc-matriz-6H6L367K.webp";
 
 const selectedPlace = ref()
 
 const places = [
   {
-    url: "/src/assets/media/suc-matriz-6H6L367K.webp",
+    url: matriz,
     href: "https://goo.gl/maps/FAowX7hVz3wxy7CVA",
     caption: "MATRIZ",
     src: "/src/assets/icon/mapas-de-google.webp",
