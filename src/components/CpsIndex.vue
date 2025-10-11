@@ -127,7 +127,6 @@ function loadUrl(urlString: string) {
               style="border-radius: 7%; box-shadow: 1px 1px 21px 0px rgba(0, 0, 0, 0.75)"
               src="/src/assets/img-revistas/revista_oct_2025.webp" alt="Revista Libertador Cooperativo" />
           </div>
-          <div class="text-center adds-text">Revista Libertador Cooperativo</div>
         </a>
       </div>
       <div class="col boxed d-flex flex-column align-items-center">
@@ -139,7 +138,6 @@ function loadUrl(urlString: string) {
               style="border-radius: 7%; box-shadow: 1px 1px 21px 0px rgba(0, 0, 0, 0.75)"
               src="/src/assets/Promociones.webp" alt="Promociones 2025" />
           </div>
-          <div class="text-center adds-text">Promociones 2025</div>
         </a>
       </div>
       <div class="col boxed d-flex flex-column align-items-center">
@@ -150,7 +148,6 @@ function loadUrl(urlString: string) {
               style="border-radius: 7%; box-shadow: 1px 1px 21px 0px rgba(0, 0, 0, 0.75)"
               src="/src/assets/alianzas.webp" alt="Alianzas Estratégicas" />
           </div>
-          <div class="text-center adds-text">Alianzas Estratégicas</div>
         </a>
       </div>
       <div class="col boxed d-flex flex-column align-items-center">
@@ -162,7 +159,6 @@ function loadUrl(urlString: string) {
               style="border-radius: 7%; box-shadow: 1px 1px 21px 0px rgba(0, 0, 0, 0.75)"
               src="/src/assets/portlibro.webp" alt="Libro Conmemorativo" />
           </div>
-          <div class="text-center adds-text">Libro Conmemorativo</div>
         </a>
       </div>
       <!---->
