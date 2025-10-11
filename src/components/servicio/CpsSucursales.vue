@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 import matriz from "/src/assets/media/suc-matriz-6H6L367K.webp";
 import pinMap from "/src/assets/icon/mapas-de-google.webp"
 import chapala from "/src/assets/media/chapala-3-AM3NNGUT.webp"
@@ -20,7 +20,11 @@ import tlaquepaque from "/src/assets/media/tlaquepaque-BVQLGZOI.webp"
 import salto from "/src/assets/media/sucursal_el_salto.webp"
 import medico from "/src/assets/media/serviciomed-626x417-OMYNMLHJ.webp"
 
+import { Modal } from 'bootstrap';
+
 const selectedPlace = ref()
+const modalInstance = ref<Modal | null>(null);
+const isVisible = ref(false);
 
 const places = [
   {
@@ -171,7 +175,29 @@ const places = [
 
 function selectPlace(item: unknown) {
   selectedPlace.value = item
+  modalInstance.value?.show();
+  isVisible.value = true;
 }
+
+onMounted(() => {
+  const modalElement = document.getElementById('detailsPlaceModal');
+  if (modalElement) {
+    modalInstance.value = new Modal(modalElement);
+
+    // Event listeners
+    modalElement.addEventListener('show.bs.modal', () => {
+      isVisible.value = true;
+    });
+
+    modalElement.addEventListener('hide.bs.modal', () => {
+      isVisible.value = false;
+    });
+  }
+});
+
+onUnmounted(() => {
+  modalInstance.value?.dispose();
+});
 </script>
 <template>
   <main>
@@ -250,7 +276,7 @@ function selectPlace(item: unknown) {
             <div class="card-suc-title-btn">
               <div class="card-suc-details">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalDetails"
-                  @mouseover="selectPlace(value)">
+                  @click="selectPlace(value)">
                   <p>Detalles</p>
                 </button>
               </div>
@@ -266,7 +292,8 @@ function selectPlace(item: unknown) {
         </div>
       </div>
       <!-- Modal -->
-      <div v-if="selectedPlace" class="modal fade" id="modalDetails" tabindex="-1" aria-hidden="true">
+      <div class="modal fade" :class="{ 'show d-block': isVisible }" tabindex="-1" v-show="isVisible"
+        id="detailsPlaceModal">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -290,6 +317,8 @@ function selectPlace(item: unknown) {
           </div>
         </div>
       </div>
+      <!-- Backdrop -->
+      <div class="modal-backdrop fade" :class="{ 'show': isVisible }" v-show="isVisible"></div>
     </section>
   </main>
 </template>
