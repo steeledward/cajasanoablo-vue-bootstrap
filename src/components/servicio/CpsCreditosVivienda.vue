@@ -5,9 +5,9 @@
       <div class="card-container row justify-content-center">
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/vivienda.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO VIVIENDA
-          </h2>
+          <div class="card-credito-details">
+            Diseñado para construir, remodelar o ampliar tu casa. Ideal para mejorar tu patrimonio.
+          </div>
           <div class="card-credito-btn" @click="showDetails('prestamoVivienda', 'prestamoViviendaId')"
             id="prestamoViviendaId">
             Leer más
@@ -280,6 +280,14 @@ function showDetails(elementId: string, buttonElementId: string) {
 }
 </script>
 <style lang="css" scoped>
+.card-credito-details {
+  margin: 20px 0 20px 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card-credito {
   padding: 40px 20px 10px 20px;
   margin-bottom: 50px;

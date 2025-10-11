@@ -10,9 +10,9 @@
       <div class="card-container row justify-content-center">
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/automatico.png" />
-          <h2 class="card-credito-title">
-            CRÉDITO AUTOMÁTICO
-          </h2>
+          <div class="card-credito-details">
+            Ideal para imprevistos o necesidades personales, te ofrecemos un préstamo de hasta el 90% de tus ahorros.
+          </div>
           <div class="card-credito-btn" @:click="showDetails('creditAutomatic', 'creditAutomaticBtn')"
             id="creditAutomaticBtn">
             Leer más
@@ -223,9 +223,9 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/credilomio.png" />
-          <h2 class="card-credito-title">
-            CREDILOMIO
-          </h2>
+          <div class="card-credito-details">
+            Ideal para imprevistos o necesidades personales, te ofrecemos un préstamo de hasta el 90% de tus ahorros.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditLomio', 'creditLomioId')" id="creditLomioId">
             Leer más
           </div>
@@ -435,9 +435,9 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/mi_primer_credito.png" />
-          <h2 class="card-credito-title">
-            MI PRIMER CRÉDITO
-          </h2>
+          <div class="card-credito-details">
+            Crédito para nuestros Socios jóvenes que desean comenzar con su historial de crédito. 
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditFirst', 'creditFirstId')" id="creditFirstId">
             Leer más
           </div>
@@ -660,9 +660,10 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/credigodin.png" />
-          <h2 class="card-credito-title">
-            CRÉDITO CREDI GODÍN
-          </h2>
+          <div class="card-credito-details">
+            Crédito pensado para nuestros asalariados, pensionados o jubilados que desean cubrir necesidades o gastos
+            personales.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditGodin', 'creditGodinId')" id="creditGodinId">
             Leer más
           </div>
@@ -891,9 +892,9 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" width="220px" src="/src/assets/icon/credits/ordinario.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO ORDINARIO
-          </h2>
+          <div class="card-credito-details">
+            Crédito personal de Caja Popular San Pablo, para que tú decidas en qué usarlo.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditOrdinary', 'creditOrdinaryId')"
             id="creditOrdinaryId">
             Leer más
@@ -1124,9 +1125,9 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/credileal.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO CREDILEAL
-          </h2>
+          <div class="card-credito-details">
+            Crédito de consumo exclusivo para Socios con una sólida trayectoria en la cooperativa.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditLeal', 'creditLealId')" id="creditLealId">
             Leer más
           </div>
@@ -1368,9 +1369,10 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/automovil.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO AUTOMÓVIL
-          </h2>
+          <div class="card-credito-details">
+            Adquiere tu auto nuevo o seminuevo (hasta 5 años de antigüedad) para uso personal, disponible en agencias
+            distribuidoras autorizadas o en lotes registrados ante ANCA o AMDA.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditVehicle', 'creditVehicleId')" id="creditVehicleId">
             Leer más
           </div>
@@ -1608,9 +1610,9 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/ordinario_hipotecario.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO ORDINARIO HIPOTECARIO
-          </h2>
+          <div class="card-credito-details">
+            Crédito con garantía hipotecaria para que adquieras lo que necesitas sin complicaciones.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditOrdinayHipo', 'creditOrdinayHipoId')"
             id="creditOrdinayHipoId">
             Leer más
@@ -1927,6 +1929,15 @@ function showDetails(elementId: string, buttonElementId: string) {
   width: 100%;
   /* max-width: 300px; */
 }
+
+.card-credito-details {
+  margin: 20px 0 20px 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .credito-contaner .card-container .card-credito .card-credito-title {
   font-size: 1.2rem;

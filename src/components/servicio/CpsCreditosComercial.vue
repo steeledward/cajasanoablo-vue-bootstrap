@@ -5,9 +5,10 @@
       <div class="card-container row justify-content-center">
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/prestamovil.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO PRESTA-MÓVIL
-          </h2>
+          <div class="card-credito-details">
+            Financiamiento diseñado especialmente para vehículos de transporte, plataformas digitales, taxis y
+            unidades utilitarias.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditPrestaMovil', 'creditPrestaMovilId')"
             id="creditPrestaMovilId">
             Leer más
@@ -245,9 +246,9 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/comercial_avio.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO COMERCIAL AVÍO
-          </h2>
+          <div class="card-credito-details">
+            Impulsa tu negocio, crédito pensado para actividades comerciales, agrícolas, ganaderas o empresariales.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditComertialAvio', 'creditComertialAvioId')"
             id="creditComertialAvioId">
             Leer más
@@ -491,9 +492,10 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/comercial_refaccionario.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO COMERCIAL REFACCIONARIO
-          </h2>
+          <div class="card-credito-details">
+            Crédito a largo plazo destinado a impulsar tu negocio o actividad agropecuaria, ideal para invertir en la
+            compra, instalación de maquinarias o refacciones que fortalezcan y desarrollen tu producción.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditComertialRefacc', 'creditComertialRefaccId')"
             id="creditComertialRefaccId">
             Leer más
@@ -733,9 +735,10 @@
         <!---->
         <div class="col-3 card-credito">
           <img loading="lazy" alt="icono credito" src="/src/assets/icon/credits/refaccionario_hipotecario.png" />
-          <h2 class="card-credito-title">
-            PRÉSTAMO COMERCIAL REFACCIONARIO HIPOTECARIO
-          </h2>
+          <div class="card-credito-details">
+            Crédito a largo plazo con garantía hipotecaria para hacer crecer tu negocio o actividad agropecuaria.
+            Invierte, equípate y fortalece tu producción.
+          </div>
           <div class="card-credito-btn" @click="showDetails('creditComertialRefaccHipo', 'creditComertialRefaccHipoId')"
             id="creditComertialRefaccHipoId">
             Leer más
@@ -1019,6 +1022,14 @@ function showDetails(elementId: string, buttonElementId: string) {
 }
 </script>
 <style lang="css" scoped>
+.card-credito-details {
+  margin: 20px 0 20px 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card-credito {
   padding: 40px 20px 10px 20px;
   margin-bottom: 50px;
