@@ -106,6 +106,10 @@ const slides = [
   </div>
 </template>
 <style scoped>
+a {
+  text-decoration: none;
+}
+
 .carousel-item img {
   width: 100%;
   height: auto;
