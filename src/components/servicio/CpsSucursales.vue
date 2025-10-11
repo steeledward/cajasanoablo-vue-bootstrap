@@ -27,7 +27,7 @@ const places = [
     url: matriz,
     href: "https://goo.gl/maps/FAowX7hVz3wxy7CVA",
     caption: "MATRIZ",
-
+    address: "Joseia Urtiz de Dominquez N. 3008 Col. Liberiad, Guadalajara, Jal.",
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -35,7 +35,7 @@ const places = [
     url: chapala,
     href: "https://goo.gl/maps/Dw13Emd7G35Wr18a6",
     caption: "CHAPALA",
-
+    address: "Juárez #751 Col. Chapala Centro Chapala, Jal.",
     phone: "3767653669 Conmutador: 3338831830 o 3336441728 Ext. 1214",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -43,7 +43,7 @@ const places = [
     url: ocotlan,
     href: "https://maps.app.goo.gl/QVexWKgZ1i89Jctw7",
     caption: "OCOTLÁN",
-
+    address: "Dr. Delgadillo Araujo #214. Co. Forida. Ocotlan Jaisco.",
     phone: "3310010760 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1253 Crédito: 1252",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -51,7 +51,7 @@ const places = [
     url: zalatitan,
     href: "https://goo.gl/maps/oYUFnFtS8SDJvh4x8",
     caption: "ZALATITÁN",
-
+    address: "Avenida Zalatitán #370. Col Alamedas de Zalatitán. Tonalá, Jal.",
     phone: "3336073717 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1191 Crédito: 1166 Crédito: 1167",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -59,7 +59,7 @@ const places = [
     url: centro,
     href: "https://goo.gl/maps/3YVDQcCKRUmfnsMr6",
     caption: "CENTRO",
-
+    address: "",
     phone: "3336139592 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1171 / 1246",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -67,7 +67,7 @@ const places = [
     url: aleira,
     href: "https://maps.app.goo.gl/TC17YZmFXWX4m9zXA",
     caption: "PLAZA ALEIRA",
-
+    address: "",
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -75,7 +75,7 @@ const places = [
     url: iglesias,
     href: "https://goo.gl/maps/nS6fTmuqS89ZAGFr6",
     caption: "JOSÉ MA. IGLESIAS",
-
+    address: "",
     phone: "3336084503 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1143 Captación: 1146 Cobranza: 1194",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -83,7 +83,7 @@ const places = [
     url: obrero,
     href: "https://goo.gl/maps/Naxp6vFJX5WyWMm19",
     caption: "OBRERO",
-
+    address: "",
     phone: "3316529944 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1226",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -91,7 +91,7 @@ const places = [
     url: belisario,
     href: "https://maps.app.goo.gl/F9ssQ3kHrNWxjH9D7",
     caption: "BELISARIO DOMINGUEZ",
-
+    address: "",
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -99,7 +99,7 @@ const places = [
     url: zapopan,
     href: "https://goo.gl/maps/YjSSc7teQBNRANWTA",
     caption: "ZAPOPAN",
-
+    address: "",
     phone: "3338338253 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1145 Captación: 1147 Cobranza: 1198",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -107,7 +107,7 @@ const places = [
     url: tonala,
     href: "https://goo.gl/maps/vJi1iPVUPGQKxTCH7",
     caption: "TONALÁ",
-
+    address: "",
     phone: "3337926340 Conmutador: 3338831830 o 3336441728 Ext. 1213",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -115,7 +115,7 @@ const places = [
     url: centroSur,
     href: "https://maps.app.goo.gl/hctrRYvLY1fLU3e88",
     caption: "CENTRO SUR",
-
+    address: "",
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -123,7 +123,7 @@ const places = [
     url: pedrito,
     href: "https://goo.gl/maps/UJ1xAEsHWpkNpxH97",
     caption: "SAN PEDRITO",
-
+    address: "",
     phone: "3336003162 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1151 Captación: 1152 Cobranza: 1197",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -131,7 +131,7 @@ const places = [
     url: chapalita,
     href: "https://maps.app.goo.gl/jCUL8Zqm2vGiCJgq8",
     caption: "CHAPALITA",
-
+    address: "",
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -139,7 +139,7 @@ const places = [
     url: santaFe,
     href: "https://goo.gl/maps/bMoML5MdvhfeFoxx6",
     caption: "SANTA FÉ",
-
+    address: "",
     phone: "3311890728 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1163 Crédito: 1193 / 1176",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -147,7 +147,7 @@ const places = [
     url: tlaquepaque,
     href: "https://goo.gl/maps/3QqWppdVYUKB742k9",
     caption: "TLAQUEPAQUE",
-
+    address: "",
     phone: "3310010760 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1253 Crédito: 1252",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -155,7 +155,7 @@ const places = [
     url: salto,
     href: "https://maps.app.goo.gl/YfNnJvRj6xkKMPBn7",
     caption: "EL SALTO",
-
+    address: "",
     phone: "3337324904",
     schedule: "Lunes a Viernes de 10:00 a 17:45 horas Sábado de 9:00 a 13:00 horas"
   },
@@ -163,7 +163,7 @@ const places = [
     url: medico,
     href: "https://goo.gl/maps/g9wEcXDEuCqh9kCa7",
     caption: "SERVICIO MÉDICO",
-
+    address: "",
     phone: "3338018780",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   }
@@ -275,6 +275,8 @@ function selectPlace(item: unknown) {
             </div>
             <div class="modal-body">
               <slot name="body">
+                {{ selectedPlace ? selectedPlace.address : '' }}
+                <hr />
                 {{ selectedPlace ? selectedPlace.phone : '' }}
                 <hr />
                 {{ selectedPlace ? selectedPlace.schedule : '' }}
