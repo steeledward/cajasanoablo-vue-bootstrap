@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import matriz from "/src/assets/media/suc-matriz-6H6L367K.webp";
+import pinMap from "/src/assets/icon/mapas-de-google.webp"
 
 const selectedPlace = ref()
 
@@ -223,7 +224,8 @@ function selectPlace(item: unknown) {
             </div>
             <a target="_blank" :href="value.href">
               <div class="card-suc-title-btn">
-                <div class="card-suc-btng"><img :src="value.src" width="16px" height="16px" alt="pin-mapa">
+                <div class="card-suc-btng">
+                  <img :src="pinMap" width="16px" height="16px" alt="pin-mapa">
                   <p>Obtener dirección</p>
                 </div>
               </div>
