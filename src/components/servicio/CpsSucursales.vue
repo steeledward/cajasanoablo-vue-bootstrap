@@ -2,6 +2,23 @@
 import { ref } from 'vue';
 import matriz from "/src/assets/media/suc-matriz-6H6L367K.webp";
 import pinMap from "/src/assets/icon/mapas-de-google.webp"
+import chapala from "/src/assets/media/chapala-3-AM3NNGUT.webp"
+import ocotlan from "/src/assets/media/ocotlan-5TU4MCEL.webp"
+import zalatitan from "/src/assets/media/suczalatitan-XESY22I7.webp"
+import centro from "/src/assets/media/centro-BO7DGDSJ.webp"
+import aleira from "/src/assets/media/aleira-4L4TYFDR.webp"
+import iglesias from "/src/assets/media/jose-ma.-i-JXJCIUAL.webp"
+import obrero from "/src/assets/media/sucobrero-2E2YKXKD.webp"
+import belisario from "/src/assets/media/suc-belisario-TRSC2NC2.webp"
+import zapopan from "/src/assets/media/suc.-zapopan-3-5NQJTLFS.webp"
+import tonala from "/src/assets/media/tonala1-GSQS6C4W.webp"
+import centroSur from "/src/assets/media/Centro-Sur-WQU36CMY.webp"
+import pedrito from "/src/assets/media/san-pedrito-46WBOKT7.webp"
+import chapalita from "/src/assets/media/chapalita-ZSFKAIAY.webp"
+import santaFe from "/src/assets/media/sucsantafe-UBGMNHHR.webp"
+import tlaquepaque from "/src/assets/media/tlaquepaque-BVQLGZOI.webp"
+import salto from "/src/assets/media/sucursal_el_salto.webp"
+import medico from "/src/assets/media/serviciomed-626x417-OMYNMLHJ.webp"
 
 const selectedPlace = ref()
 
@@ -10,143 +27,143 @@ const places = [
     url: matriz,
     href: "https://goo.gl/maps/FAowX7hVz3wxy7CVA",
     caption: "MATRIZ",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/chapala-3-AM3NNGUT.webp",
+    url: chapala,
     href: "https://goo.gl/maps/Dw13Emd7G35Wr18a6",
     caption: "CHAPALA",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3767653669 Conmutador: 3338831830 o 3336441728 Ext. 1214",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/ocotlan-5TU4MCEL.webp",
+    url: ocotlan,
     href: "https://maps.app.goo.gl/QVexWKgZ1i89Jctw7",
     caption: "OCOTLÁN",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3310010760 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1253 Crédito: 1252",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/suczalatitan-XESY22I7.webp",
+    url: zalatitan,
     href: "https://goo.gl/maps/oYUFnFtS8SDJvh4x8",
     caption: "ZALATITÁN",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3336073717 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1191 Crédito: 1166 Crédito: 1167",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/centro-BO7DGDSJ.webp",
+    url: centro,
     href: "https://goo.gl/maps/3YVDQcCKRUmfnsMr6",
     caption: "CENTRO",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3336139592 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1171 / 1246",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/aleira-4L4TYFDR.webp",
+    url: aleira,
     href: "https://maps.app.goo.gl/TC17YZmFXWX4m9zXA",
     caption: "PLAZA ALEIRA",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/jose-ma.-i-JXJCIUAL.webp",
+    url: iglesias,
     href: "https://goo.gl/maps/nS6fTmuqS89ZAGFr6",
     caption: "JOSÉ MA. IGLESIAS",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3336084503 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1143 Captación: 1146 Cobranza: 1194",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/sucobrero-2E2YKXKD.webp",
+    url: obrero,
     href: "https://goo.gl/maps/Naxp6vFJX5WyWMm19",
     caption: "OBRERO",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3316529944 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1226",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/suc-belisario-TRSC2NC2.webp",
+    url: belisario,
     href: "https://maps.app.goo.gl/F9ssQ3kHrNWxjH9D7",
     caption: "BELISARIO DOMINGUEZ",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/suc.-zapopan-3-5NQJTLFS.webp",
+    url: zapopan,
     href: "https://goo.gl/maps/YjSSc7teQBNRANWTA",
     caption: "ZAPOPAN",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3338338253 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1145 Captación: 1147 Cobranza: 1198",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/tonala1-GSQS6C4W.webp",
+    url: tonala,
     href: "https://goo.gl/maps/vJi1iPVUPGQKxTCH7",
     caption: "TONALÁ",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3337926340 Conmutador: 3338831830 o 3336441728 Ext. 1213",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/Centro-Sur-WQU36CMY.webp",
+    url: centroSur,
     href: "https://maps.app.goo.gl/hctrRYvLY1fLU3e88",
     caption: "CENTRO SUR",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/san-pedrito-46WBOKT7.webp",
+    url: pedrito,
     href: "https://goo.gl/maps/UJ1xAEsHWpkNpxH97",
     caption: "SAN PEDRITO",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3336003162 Conmutador: 3338831830 o 3336441728 Ext. Crédito: 1151 Captación: 1152 Cobranza: 1197",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/chapalita-ZSFKAIAY.webp",
+    url: chapalita,
     href: "https://maps.app.goo.gl/jCUL8Zqm2vGiCJgq8",
     caption: "CHAPALITA",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "Conmutador: 3338831830 o 3336441728 Ext. Captación: 1103 / 1121 / 1178 / 1235 / 1124 Crédito: 1104 / 1132 / 1154 / 1155 Cobranza: 1131 / 1125 / 1105",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/sucsantafe-UBGMNHHR.webp",
+    url: santaFe,
     href: "https://goo.gl/maps/bMoML5MdvhfeFoxx6",
     caption: "SANTA FÉ",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3311890728 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1163 Crédito: 1193 / 1176",
     schedule: "Lunes a Viernes de 9:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/tlaquepaque-BVQLGZOI.webp",
+    url: tlaquepaque,
     href: "https://goo.gl/maps/3QqWppdVYUKB742k9",
     caption: "TLAQUEPAQUE",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3310010760 Conmutador: 3338831830 o 3336441728 Ext. Captación: 1253 Crédito: 1252",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/sucursal_el_salto.webp",
+    url: salto,
     href: "https://maps.app.goo.gl/YfNnJvRj6xkKMPBn7",
     caption: "EL SALTO",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3337324904",
     schedule: "Lunes a Viernes de 10:00 a 17:45 horas Sábado de 9:00 a 13:00 horas"
   },
   {
-    url: "/src/assets/media/serviciomed-626x417-OMYNMLHJ.webp",
+    url: medico,
     href: "https://goo.gl/maps/g9wEcXDEuCqh9kCa7",
     caption: "SERVICIO MÉDICO",
-    src: "/src/assets/icon/mapas-de-google.webp",
+
     phone: "3338018780",
     schedule: "Lunes a Viernes de 10:00 a 18:45 horas Sábado de 9:00 a 13:00 horas"
   }
